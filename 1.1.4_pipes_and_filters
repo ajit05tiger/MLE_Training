@@ -1,0 +1,243 @@
+Script started on 2022-12-29 13:30:56+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="86" LINES="30"]
+[?2004h]0;ajit05tiger@TIGER02636: ~[01;32majit05tiger@TIGER02636[00m:[01;34m~[00m$ ls proteins
+[?2004lls: cannot access 'proteins': No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: ~[01;32majit05tiger@TIGER02636[00m:[01;34m~[00m$ cd /mnt/c/users/de[K[Kajit.mishra/downloads[K[K[K[K[K[K[K[Kesktop/mle/mode[Kule_1/shell-lesso n-data/exercise-data
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ ls protw[Keins
+[?2004l[0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd protw[Keins
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ e[Kwc cubane.pdb
+[?2004l  20  156 1158 cubane.pdb
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ wc *.pdb
+[?2004l  20  156 1158 cubane.pdb
+  12   84  622 ethane.pdb
+   9   57  422 methane.pdb
+  30  246 1828 octane.pdb
+  21  165 1226 pentane.pdb
+  15  111  825 propane.pdb
+ 107  819 6081 total
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ wc -l *.pdb
+[?2004l  20 cubane.pdb
+  12 ethane.pdb
+   9 methane.pdb
+  30 octane.pdb
+  21 pentane.pdb
+  15 propane.pdb
+ 107 total
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ wc -l
+[?2004l^C
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ wc -l *.pdb > lengths.txt
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ ls lengths.txt
+[?2004l[0m[01;32mlengths.txt[0m
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ cat lengths.txt
+[?2004l  20 cubane.pdb
+  12 ethane.pdb
+   9 methane.pdb
+  30 octane.pdb
+  21 pentane.pdb
+  15 propane.pdb
+ 107 total
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ cd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[00m$ ls
+[?2004l[0m[34;42mexercise-data[0m  [34;42mnorth-pacific-gyre[0m
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[00m$ cd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1[00m$ ls
+[?2004l[0m[34;42mshell-lesson-data[0m
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1[00m$ cd exercise-data [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ka
+[?2004lbash: cd: exercise-data: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1[00m$ cd shell-lesson- data/exercise-data
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ ls
+[?2004l[0m[34;42manimal-counts[0m  [34;42mbackup[0m  [34;42mcreatures[0m  [01;32mnumbers.txt[0m  [34;42mproject[0m  [34;42mproteins[0m  [34;42mwriting[0m
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd numbers
+[?2004lbash: cd: numbers: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ nu[Kcd numbers/[K.txt
+[?2004lCommand 'ncd' not found, but there are 17 similar ones.
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd numbers.txt
+[?2004lbash: cd: numbers.txt: Not a directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ sort -n[K[Knumbers.txt
+[?2004l10
+19
+2
+22
+6
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ sort -n
+[?2004lsort      ^C
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ sort -n numbers.txt
+[?2004l2
+6
+10
+19
+22
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ sort -n lenghts.txt
+[?2004lsort: cannot read: lenghts.txt: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd proteins | l[Ksort lenghts.txt
+[?2004lsort: cannot read: lenghts.txt: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd proteins
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ sort -n lenghts.txt
+[?2004lsort: cannot read: lenghts.txt: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ ls p[Kproteins
+[?2004lls: cannot access 'proteins': No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ cd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ ls proteo[Kins
+[?2004l[0m[01;32mcubane.pdb[0m  [01;32mlengths.txt[0m  [01;32moctane.pdb[0m   [01;32mpropane.pdb[0m
+[01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32mpentane.pdb[0m
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd proteins
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ cp lengths.txt lenghts.txt
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ leng[K[K[K[Ksort -n lenghts.txt
+[?2004l   9 methane.pdb
+  12 ethane.pdb
+  15 propane.pdb
+  20 cubane.pdb
+  21 pentane.pdb
+  30 octane.pdb
+ 107 total
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ sort -n lenghts.txt > sorted-lenghts.txt
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ head -n 1 sorted-lenghts,[K.txt
+[?2004l   9 methane.pdb
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ head -n 3 le[K[Ksorted-lenghts.txt
+[?2004l   9 methane.pdb
+  12 ethane.pdb
+  15 propane.pdb
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ sort -n lenghts.txt > lenghts.txt
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ echo The c[Kecg[Kho command prints tes[Kxt
+[?2004lThe echo command prints text
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ echo hello > testfile01.txt
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ echo hello >> test [Kfile02.txt
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ echo hello > testfile01.txt
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ echo hello >> tex[Kstfile02.txt
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ head -n 3 animal.csv > animals[1@s[C[C[C[C[C[C[C[C[C[C[C[C[C[C-subset.csv
+[?2004lhead: cannot open 'animals.csv' for reading: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ cd.[K ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ head -n 3 animals.csv > animals-subset.csv
+[?2004lhead: cannot open 'animals.csv' for reading: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ ls
+[?2004l[0m[34;42manimal-counts[0m       [34;42mbackup[0m     [01;32mnumbers.txt[0m  [34;42mproteins[0m
+[01;32manimals-subset.csv[0m  [34;42mcreatures[0m  [34;42mproject[0m      [34;42mwriting[0m
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ a[Khead -n 3 animal-counts.csv > animal-subset.csv
+[?2004lhead: cannot open 'animal-counts.csv' for reading: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ head animal-counts.csv[C animal-counts.csv- animal-counts.csvn animal-counts.csv[C animal-counts.csv3 animal-counts.csv
+[?2004lhead: cannot open 'animal-counts.csv' for reading: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd animal-counts
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ cd[K[Khead animals.csv >[K[K[C[C[C[C[C animals.csv- animals.csvn animals.csv[C animals.csv3 animals.csv[C[C[C[C[C[C[C[C[C[C[C[C > animals-subset.csv
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ tail -n 2 animals.csv >> animals-subset.csv
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ sort -n lenghts.txt | head -n 1
+[?2004lsort: cannot read: lenghts.txt: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ cd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd[K[Kls
+[?2004l[0m[34;42manimal-counts[0m      [01;32manimals-subset.csv[0m  [34;42mcreatures[0m    [34;42mproject[0m   [34;42mwriting[0m
+[01;32manimal-subset.csv[0m  [34;42mbackup[0m              [01;32mnumbers.txt[0m  [34;42mproteins[0m
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ pr[K[Kcd proteins
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ ls
+[?2004l[0m[01;32manimals-subset.csv[0m  [01;32mlenghts.txt[0m  [01;32moctane.pdb[0m   [01;32msorted-lenghts.txt[0m
+[01;32mcubane.pdb[0m          [01;32mlengths.txt[0m  [01;32mpentane.pdb[0m  [01;32mtestfile01.txt[0m
+[01;32methane.pdb[0m          [01;32mmethane.pdb[0m  [01;32mpropane.pdb[0m  [01;32mtestfile02.txt[0m
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ rm animal-subsets-subset[C[C[C[C[C[C[C.csv
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ r[Kls
+[?2004l[0m[01;32mcubane.pdb[0m  [01;32mlenghts.txt[0m  [01;32mmethane.pdb[0m  [01;32mpentane.pdb[0m  [01;32msorted-lenghts.txt[0m  [01;32mtestfile02.txt[0m
+[01;32methane.pdb[0m  [01;32mlengths.txt[0m  [01;32moctane.pdb[0m   [01;32mpropane.pdb[0m  [01;32mtestfile01.txt[0m
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ sorrt[K[Kt -n lenghts.txt | head -n 1
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ sort -n lenghts.txt
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ head -n 2 lenghts.txt
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ sort -n lenghts.txt
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ sort -n lengths.txt
+[?2004l   9 methane.pdb
+  12 ethane.pdb
+  15 propane.pdb
+  20 cubane.pdb
+  21 pentane.pdb
+  30 octane.pdb
+ 107 total
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ sort -n lengths.txt | hes[Kad -n 1
+[?2004l   9 methane.pdb
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ wc -l *.pdb | sort -n
+[?2004l   9 methane.pdb
+  12 ethane.pdb
+  15 propane.pdb
+  20 cubane.pdb
+  21 pentane.pdb
+  30 octane.pdb
+ 107 total
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ wc -l *.pdb | sort -n \[K| head =[K-n 1
+[?2004l   9 methane.pdb
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ wc -l * sort -n | head -n 3[C[C[C[C[C[C[C[C[1@ [1@|[C[1@ [1P
+[?2004l   0 lenghts.txt
+   1 testfile01.txt
+   2 testfile02.txt
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ cd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ ls
+[?2004l[0m[34;42manimal-counts[0m      [01;32manimals-subset.csv[0m  [34;42mcreatures[0m    [34;42mproject[0m   [34;42mwriting[0m
+[01;32manimal-subset.csv[0m  [34;42mbackup[0m              [01;32mnumbers.txt[0m  [34;42mproteins[0m
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd animal-counts
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ cat animals.csv | head[K[K[K[K[K[K[K
+[?2004l2012-11-05,deer,5
+2012-11-05,rabbit,22
+2012-11-05,raccoon,7
+2012-11-06,rabbit,19
+2012-11-06,deer,2
+2012-11-06,fox,4
+2012-11-07,rabbit,16
+2012-11-07,bear,1
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ cat animals.csv | head -n 5 | tail -n 3 | sort -r > fina l.txt
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ animal[K[K[K[K[K[Kfib=[K[Knal.txt
+[?2004lfinal.txt: command not found
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ cut -d , -f 2 animals.csv
+[?2004ldeer
+rabbit
+raccoon
+rabbit
+deer
+fox
+rabbit
+bear
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ cut -d [K, -f 2 animals.csv | soty[Kt[K[Krt | uniq -c
+[?2004l      1 bear
+      2 deer
+      1 fox
+      3 rabbit
+      1 raccoon
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ cd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[00m$ ls
+[?2004l[0m[34;42mexercise-data[0m  [34;42mnorth-pacific-gyre[0m
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[00m$ cd north-pacific-gyre
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ wc -l *.txt
+[?2004l  300 NENE01729A.txt
+  300 NENE01729B.txt
+  300 NENE01736A.txt
+  300 NENE01751A.txt
+  300 NENE01751B.txt
+  300 NENE01812A.txt
+  300 NENE01843A.txt
+  300 NENE01843B.txt
+  300 NENE01971Z.txt
+  300 NENE01978A.txt
+  300 NENE01978B.txt
+  240 NENE02018B.txt
+  300 NENE02040A.txt
+  300 NENE02040B.txt
+  300 NENE02040Z.txt
+  300 NENE02043A.txt
+  300 NENE02043B.txt
+ 5040 total
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ wc -l *.txt | sort -n | head -n 5
+[?2004l  240 NENE02018B.txt
+  300 NENE01729A.txt
+  300 NENE01729B.txt
+  300 NENE01736A.txt
+  300 NENE01751A.txt
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ wc -l *.txt | sort -n | tail -n 5
+[?2004l  300 NENE02040B.txt
+  300 NENE02040Z.txt
+  300 NENE02043A.txt
+  300 NENE02043B.txt
+ 5040 total
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ ls * z.tz[Kxt
+[?2004lls: cannot access 'z.txt': No such file or directory
+[0m[01;32mNENE01729A.txt[0m  [01;32mNENE01751B.txt[0m  [01;32mNENE01971Z.txt[0m  [01;32mNENE02040A.txt[0m  [01;32mNENE02043B.txt[0m
+[01;32mNENE01729B.txt[0m  [01;32mNENE01812A.txt[0m  [01;32mNENE01978A.txt[0m  [01;32mNENE02040B.txt[0m  [01;32mgoodiff.sh[0m
+[01;32mNENE01736A.txt[0m  [01;32mNENE01843A.txt[0m  [01;32mNENE01978B.txt[0m  [01;32mNENE02040Z.txt[0m  [01;32mgoostats.sh[0m
+[01;32mNENE01751A.txt[0m  [01;32mNENE01843B.txt[0m  [01;32mNENE02018B.txt[0m  [01;32mNENE02043A.txt[0m
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ exit
+[?2004lexit
+
+Script done on 2022-12-29 15:12:27+05:30 [COMMAND_EXIT_CODE="2"]
