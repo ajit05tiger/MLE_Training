@@ -1,0 +1,37 @@
+Script started on 2022-12-28 10:20:28+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;ajit05tiger@TIGER02636: ~[01;32majit05tiger@TIGER02636[00m:[01;34m~[00m$ [K]0;ajit05tiger@TIGER02636: ~[01;32majit05tiger@TIGER02636[00m:[01;34m~[00m$ [K]0;ajit05tiger@TIGER02636: ~[01;32majit05tiger@TIGER02636[00m:[01;34m~[00m$ [K]0;ajit05tiger@TIGER02636: ~[01;32majit05tiger@TIGER02636[00m:[01;34m~[00m$ [K]0;ajit05tiger@TIGER02636: ~[01;32majit05tiger@TIGER02636[00m:[01;34m~[00m$ [K]0;ajit05tiger@TIGER02636: ~[01;32majit05tiger@TIGER02636[00m:[01;34m~[00m$ [K]0;ajit05tiger@TIGER02636: ~[01;32majit05tiger@TIGER02636[00m:[01;34m~[00m$ [K]0;ajit05tiger@TIGER02636: ~[01;32majit05tiger@TIGER02636[00m:[01;34m~[00m$ [K]0;ajit05tiger@TIGER02636: ~[01;32majit05tiger@TIGER02636[00m:[01;34m~[00m$ mnt[K[K[K/mnt/[K[K[K[K[Kcd/mnt
+[?2004lbash: cd/mnt: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: ~[01;32majit05tiger@TIGER02636[00m:[01;34m~[00m$ mnt
+[?2004lCommand 'mnt' not found, did you mean:
+  command 'mbt' from deb mbt (3.6-3)
+  command 'fnt' from deb fnt (1.4.1-1)
+  command 'mgt' from deb mgt (2.31-8)
+  command 'mn' from deb mininet (2.3.0-1ubuntu1)
+  command 'ent' from deb ent (1.2debian-3)
+  command 'cnt' from deb open-infrastructure-container-tools (20211231-1build1)
+  command 'mt' from deb cpio (2.13+dfsg-7)
+  command 'mt' from deb mt-st (1.4-2)
+  command 'mne' from deb python3-mne (0.23.4+dfsg-1)
+  command 'ant' from deb ant (1.10.12-1)
+  command 'mft' from deb texlive-binaries (2021.20210626.59705-1build1)
+  command 'mtt' from deb xawtv (3.107-1.1)
+Try: sudo apt install <deb name>
+[?2004h]0;ajit05tiger@TIGER02636: ~[01;32majit05tiger@TIGER02636[00m:[01;34m~[00m$ /mnt/c
+[?2004lbash: /mnt/c: Is a directory
+[?2004h]0;ajit05tiger@TIGER02636: ~[01;32majit05tiger@TIGER02636[00m:[01;34m~[00m$ cd /mnt
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt[00m$ ls
+[?2004l[0m[34;42mc[0m  [34;42md[0m  [34;42mg[0m  [30;42mwsl[0m  [30;42mwslg[0m
+[?2004h]0;ajit05tiger@TIGER02636: /mnt[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt[00m$ cd c
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c[00m$ ls
+[?2004lls: cannot access 'DumpStack.log.tmp': Permission denied
+ls: cannot access 'hiberfil.sys': Permission denied
+ls: cannot access 'pagefile.sys': Permission denied
+ls: cannot access 'swapfile.sys': Permission denied
+[0m[34;42m'$Recycle.Bin'[0m             [34;42mIntel[0m                  [34;42mProgramData[0m                  [01;34mWindows[0m        swapfile.sys
+[01;34m'$WinREAgent'[0m              [01;34mPerfLogs[0m               [01;34mRecovery[0m                     hiberfil.sys   [34;42mtemp[0m
+[01;36m'Documents and Settings'[0m  [01;34m'Program Files'[0m        [01;34m'System Volume Information'[0m   [34;42mkworking[0m
+ DumpStack.log.tmp        [01;34m'Program Files (x86)'[0m   [01;34mUsers[0m                        pagefile.sys
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c[00m$ exit
+[?2004lexit
+
+Script done on 2022-12-28 10:25:42+05:30 [COMMAND_EXIT_CODE="1"]
