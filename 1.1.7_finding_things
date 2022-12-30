@@ -1,0 +1,430 @@
+Script started on 2022-12-30 22:28:08+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="84" LINES="36"]
+[?2004h]0;ajit05tiger@TIGER02636: ~[01;32majit05tiger@TIGER02636[00m:[01;34m~[00m$ cd /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-les son-data/exercise-data/writing
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ cat haiku.txt
+[?2004lThe Tao that is seen
+Is not the true Tao, until
+You bring fresh toner.
+
+With searching comes loss
+and the presence of absence:
+"My Thesis" not found.
+
+Yesterday it worked
+Today it is not working
+Software is like that.
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ grep not haih[Kku.txt
+[?2004lIs [01;31m[Knot[m[K the true Tao, until
+"My Thesis" [01;31m[Knot[m[K found.
+Today it is [01;31m[Knot[m[K working
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ grep The haiku.txt
+[?2004l[01;31m[KThe[m[K Tao that is seen
+"My [01;31m[KThe[m[Ksis" not found.
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ grep -w The haiku.txt
+[?2004l[01;31m[KThe[m[K Tao that is seen
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ ge[Krep -w "is not" haiku.txt
+[?2004lToday it [01;31m[Kis not[m[K working
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ grep -n "it" hau[Kiku.txt
+[?2004l[32m[K5[m[K[36m[K:[m[KW[01;31m[Kit[m[Kh searching comes loss
+[32m[K9[m[K[36m[K:[m[KYesterday [01;31m[Kit[m[K worked
+[32m[K10[m[K[36m[K:[m[KToday [01;31m[Kit[m[K is not working
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ grep -n -w "the" haiku.txt
+[?2004l[32m[K2[m[K[36m[K:[m[KIs not [01;31m[Kthe[m[K true Tao, until
+[32m[K6[m[K[36m[K:[m[Kand [01;31m[Kthe[m[K presence of absence:
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ grep -n -w -i "the" haiku.tcx[K[Kxt
+[?2004l[32m[K1[m[K[36m[K:[m[K[01;31m[KThe[m[K Tao that is seen
+[32m[K2[m[K[36m[K:[m[KIs not [01;31m[Kthe[m[K true Tao, until
+[32m[K6[m[K[36m[K:[m[Kand [01;31m[Kthe[m[K presence of absence:
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ grep -n -w -v "the" haiku.txt
+[?2004l[32m[K1[m[K[36m[K:[m[KThe Tao that is seen
+[32m[K3[m[K[36m[K:[m[KYou bring fresh toner.
+[32m[K4[m[K[36m[K:[m[K
+[32m[K5[m[K[36m[K:[m[KWith searching comes loss
+[32m[K7[m[K[36m[K:[m[K"My Thesis" not found.
+[32m[K8[m[K[36m[K:[m[K
+[32m[K9[m[K[36m[K:[m[KYesterday it worked
+[32m[K10[m[K[36m[K:[m[KToday it is not working
+[32m[K11[m[K[36m[K:[m[KSoftware is like that.
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ grep -r yesterdat[Ky
+[?2004l[35m[KLittleWomen.txt[m[K[36m[K:[m[K"Yes, I did!  I told you I'd make you pay for being so cross [01;31m[Kyesterday[m[K,
+[35m[KLittleWomen.txt[m[K[36m[K:[m[KI made a 'pome' [01;31m[Kyesterday[m[K, when I was helping Hannah wash, and as
+[35m[KLittleWomen.txt[m[K[36m[K:[m[K"I telegraphed to your mother [01;31m[Kyesterday[m[K, and Brooke answered she'd come
+[35m[KLittleWomen.txt[m[K[36m[K:[m[Koffice [01;31m[Kyesterday[m[K, for the doctor looked sober, and Hannah most took my
+[35m[KLittleWomen.txt[m[K[36m[K:[m[K[01;31m[Kyesterday[m[K's failure by a grand success today, so she ordered the
+[35m[KLittleWomen.txt[m[K[36m[K:[m[Knot only shut, but locked, and [01;31m[Kyesterday[m[K's mud still adorned the steps.
+[35m[KLittleWomen.txt[m[K[36m[K:[m[K"To New York.  I had a bright idea [01;31m[Kyesterday[m[K, and this is it.  You know
+[35m[KLittleWomen.txt[m[K[36m[K:[m[K[01;31m[Kyesterday[m[K that I was buttoning Amy's pinafore, and pulling your hair
+[35m[KLittleWomen.txt[m[K[36m[K:[m[Kdaughter was true to the mother's teaching.  I told Mamma so [01;31m[Kyesterday[m[K,
+[35m[KLittleWomen.txt[m[K[36m[K:[m[Kjust as he is, and said [01;31m[Kyesterday[m[K that she thought poverty was a
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ grep -- help
+[?2004l^X  ^C
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ grep --help
+[?2004lUsage: grep [OPTION]... PATTERNS [FILE]...
+Search for PATTERNS in each FILE.
+Example: grep -i 'hello world' menu.h main.c
+PATTERNS can contain multiple patterns separated by newlines.
+
+Pattern selection and interpretation:
+  -E, --extended-regexp     PATTERNS are extended regular expressions
+  -F, --fixed-strings       PATTERNS are strings
+  -G, --basic-regexp        PATTERNS are basic regular expressions
+  -P, --perl-regexp         PATTERNS are Perl regular expressions
+  -e, --regexp=PATTERNS     use PATTERNS for matching
+  -f, --file=FILE           take PATTERNS from FILE
+  -i, --ignore-case         ignore case distinctions in patterns and data
+      --no-ignore-case      do not ignore case distinctions (default)
+  -w, --word-regexp         match only whole words
+  -x, --line-regexp         match only whole lines
+  -z, --null-data           a data line ends in 0 byte, not newline
+
+Miscellaneous:
+  -s, --no-messages         suppress error messages
+  -v, --invert-match        select non-matching lines
+  -V, --version             display version information and exit
+      --help                display this help text and exit
+
+Output control:
+  -m, --max-count=NUM       stop after NUM selected lines
+  -b, --byte-offset         print the byte offset with output lines
+  -n, --line-number         print line number with output lines
+      --line-buffered       flush output on every line
+  -H, --with-filename       print file name with output lines
+  -h, --no-filename         suppress the file name prefix on output
+      --label=LABEL         use LABEL as the standard input file name prefix
+  -o, --only-matching       show only nonempty parts of lines that match
+  -q, --quiet, --silent     suppress all normal output
+      --binary-files=TYPE   assume that binary files are TYPE;
+                            TYPE is 'binary', 'text', or 'without-match'
+  -a, --text                equivalent to --binary-files=text
+  -I                        equivalent to --binary-files=without-match
+  -d, --directories=ACTION  how to handle directories;
+                            ACTION is 'read', 'recurse', or 'skip'
+  -D, --devices=ACTION      how to handle devices, FIFOs and sockets;
+                            ACTION is 'read' or 'skip'
+  -r, --recursive           like --directories=recurse
+  -R, --dereference-recursive  likewise, but follow all symlinks
+      --include=GLOB        search only files that match GLOB (a file pattern)
+      --exclude=GLOB        skip files that match GLOB
+      --exclude-from=FILE   skip files that match any file pattern from FILE
+      --exclude-dir=GLOB    skip directories that match GLOB
+  -L, --files-without-match  print only names of FILEs with no selected lines
+  -l, --files-with-matches  print only names of FILEs with selected lines
+  -c, --count               print only a count of selected lines per FILE
+  -T, --initial-tab         make tabs line up (if needed)
+  -Z, --null                print 0 byte after FILE name
+
+Context control:
+  -B, --before-context=NUM  print NUM lines of leading context
+  -A, --after-context=NUM   print NUM lines of trailing context
+  -C, --context=NUM         print NUM lines of output context
+  -NUM                      same as --context=NUM
+      --group-separator=SEP  print SEP on line between matches with context
+      --no-group-separator  do not print separator for matches with context
+      --color[=WHEN],
+      --colour[=WHEN]       use markers to highlight the matching strings;
+                            WHEN is 'always', 'never', or 'auto'
+  -U, --binary              do not strip CR characters at EOL (MSDOS/Windows)
+
+When FILE is '-', read standard input.  With no FILE, read '.' if
+recursive, '-' otherwise.  With fewer than two FILEs, assume -h.
+Exit status is 0 if any line is selected, 1 otherwise;
+if any error occurs and -q is not given, the exit status is 2.
+
+Report bugs to: bug-grep@gnu.org
+GNU grep home page: <https://www.gnu.org/software/grep/>
+General help using GNU software: <https://www.gnu.org/gethelp/>
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ grep -w "of" haiku.txt
+[?2004land the presence [01;31m[Kof[m[K absence:
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ grep -E "^.o" haiku.txt
+[?2004l[01;31m[KYo[m[Ku bring fresh toner.
+[01;31m[KTo[m[Kday it is not working
+[01;31m[KSo[m[Kftware is like that.
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ grep -w $1 -r $2 | cut -d : -f 2 | cut -d , -f 1,3 > $1.tx t
+[?2004lUsage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ cd..[K[K  [K..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd animal-counts/animals.csv
+[?2004lbash: cd: animal-counts/animals.csv: Not a directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd animal-counts
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ e[Knano count-species.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;37H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                      count-species.sh                                [1;83H(B[m[35d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[35;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;54H(B[0;7m*[83G(B[m[?12l[?25h[2dg[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25h(B[0;1m[34mgrep[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -w[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$1[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -r[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$2[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[34d[K[?12l[?25h[2;19H c[?25l[?12l[?25hu[?25l[?12l[?25h(B[0;1m[34mcut[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -d[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m:[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -f[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h 2[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h c[?25l[?12l[?25hu[?25l[?12l[?25h(B[0;1m[34mcut[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -d[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h ,[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -f[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h 1[?25l[?12l[?25h,[?25l[?12l[?25h2[?25l[?12l[?25h [?25l[?12l[?25h3[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m>[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$1[39m(B[m[?25l[?12l[?25h.[?25l[?12l[?25ht[?25l[?12l[?25hx[?25l[?12l[?25ht[?25l[35;15H       (B[0;7mM-D(B[m DOS Format       (B[0;7mM-A(B[m Append           (B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel            (B[0;7mM-M(B[m Mac Format       (B[0;7mM-P(B[m Prepend          (B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: count-species.sh                                                [34;37H(B[m[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;54H(B[0;7m [83G(B[m[34;35H(B[0;7m[ Wrote 1 line ](B[m[35;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[?12l[?25h[2;60H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ bash count-species.sh bear
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ count[K[K[K[K[Kbash count-species.sh *.csv bear
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ bash count-species.sh rabbit
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ cd ..
+[?2004l\[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ \[Kcd writing
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ nano women.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;37H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                          women.sh                                    [1;83H(B[m[35d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[35;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;50H(B[0;7m*[83G(B[m[?12l[?25h[2df[?25l[?12l[?25ho[?25l[?12l[?25h[32mfor[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h s[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h i[?25l[?12l[?25h[32min[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h J[?25l[?12l[?25ho[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h M[?25l[?12l[?25he[?25l[?12l[?25hg[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h N[?25l[34d[K[?12l[?25h[2;18H[42m [49m(B[m[K[?25l[?12l[?25h B[?25l[?12l[?25he[?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h A[?25l[?12l[?25hm[?25l[?12l[?25hy[?25l[?12l[?25h[32m:[39m(B[m[?25l[?12l[?25h [?25l[3d[?12l[?25h[?25l[?12l[?25hd[?25l[?12l[?25h[32mdo[39m(B[m[?25l[4d[?12l[?25h[?25l[?12l[?25h[8G[42m[1K [49m(B[m[?25l[?12l[?25h[1K e[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$s[39m(B[m[?25l[?12l[?25h(B[0;1m[31mi[39m(B[m[?25l[?12l[?25h(B[0;1m[31ms[39m(B[m[?25l[?12l[?25h[32m:[39m(B[m[?25l[5d[?12l[?25h[?25l[?12l[?25h[8G[42m[1K [49m(B[m[?25l[?12l[?25h[1K g[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25h(B[0;1m[34mgrep[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h p[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h o[?25l[?12l[?25hw[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$s[39m(B[m[?25l[?12l[?25h(B[0;1m[31mi[39m(B[m[?25l[?12l[?25h(B[0;1m[31ms[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h L[?25l[?12l[?25hi[?25l[?12l[?25ht[?25l[?12l[?25ht[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25hW[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25h.[?25l[?12l[?25ht[?25l[?12l[?25hx[?25l[?12l[?25ht[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h w[?25l[?12l[?25hc[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -l[39m(B[m[?25l[6d[?12l[?25h[?25l[?12l[?25hd[?25l[?12l[?25h[32mdo[39m(B[m[?25l[?12l[?25hdon[?25l[?12l[?25h[32mdone[39m(B[m[?25l[7d[?12l[?25h[?25l[6;5H[?12l[?25h[?25l[35;15H       (B[0;7mM-D(B[m DOS Format       (B[0;7mM-A(B[m Append           (B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel            (B[0;7mM-M(B[m Mac Format       (B[0;7mM-P(B[m Prepend          (B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: women.sh                                                        [34;29H(B[m[?12l[?25h[?25l[35G[1K (B[0;7m[ Writing... ](B[m[K[1;50H(B[0;7m [83G(B[m[34;34H(B[0;7m[ Wrote 5 lines ](B[m[35;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[?12l[?25h[6;5H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ women.sh littlewomen
+[?2004lwomen.sh: command not found
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/writing[00m$ cd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ find .[K[K
+[?2004l.
+./animal-counts
+./animal-counts/animals-subset.csv
+./animal-counts/animals-subset.csv.txt
+./animal-counts/animals.csv
+./animal-counts/bear.txt
+./animal-counts/count-species.sh
+./animal-counts/final.txt
+./animal-counts/rabbit.txt
+./animal-counts/recent.sh
+./animal-counts/redo-figure-3.sh
+./animal-counts/species.sh
+./animal-subset.csv
+./animals-subset.csv
+./backup
+./backup/minotaur.dat
+./backup/unicorn.dat
+./creatures
+./creatures/basilisk.dat
+./creatures/minotaur.dat
+./creatures/original-basilisk.dat
+./creatures/original-minotaur.dat
+./creatures/original-unicorn.dat
+./creatures/unicorn.dat
+./longest.sh
+./numbers.txt
+./project
+./project/data
+./project/results
+./proteins
+./proteins/alkanes.pdb
+./proteins/all.pdb
+./proteins/cubane-25
+./proteins/cubane-30
+./proteins/cubane-37
+./proteins/cubane-40
+./proteins/cubane.pdb
+./proteins/ethane-25
+./proteins/ethane-30
+./proteins/ethane-37
+./proteins/ethane-40
+./proteins/ethane.pdb
+./proteins/lenghts.txt
+./proteins/lengths.txt
+./proteins/longest.sh
+./proteins/methane-25
+./proteins/methane-30
+./proteins/methane-37
+./proteins/methane-40
+./proteins/methane.pdb
+./proteins/middle.sh
+./proteins/octane.pdb
+./proteins/pentane.pdb
+./proteins/propane.pdb
+./proteins/script.sh
+./proteins/script1.sh
+./proteins/script2.sh
+./proteins/script3.sh
+./proteins/sorted-lenghts.txt
+./proteins/sorted.sh
+./proteins/testfile01.txt
+./proteins/testfile02.txt
+./writing
+./writing/.txt
+./writing/haiku.txt
+./writing/LittleWomen.txt
+./writing/thesis_backup
+./writing/thesis_backup/quotations.txt
+./writing/women.sh
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ find .
+[?2004l.
+./animal-counts
+./animal-counts/animals-subset.csv
+./animal-counts/animals-subset.csv.txt
+./animal-counts/animals.csv
+./animal-counts/bear.txt
+./animal-counts/count-species.sh
+./animal-counts/final.txt
+./animal-counts/rabbit.txt
+./animal-counts/recent.sh
+./animal-counts/redo-figure-3.sh
+./animal-counts/species.sh
+./animal-subset.csv
+./animals-subset.csv
+./backup
+./backup/minotaur.dat
+./backup/unicorn.dat
+./creatures
+./creatures/basilisk.dat
+./creatures/minotaur.dat
+./creatures/original-basilisk.dat
+./creatures/original-minotaur.dat
+./creatures/original-unicorn.dat
+./creatures/unicorn.dat
+./longest.sh
+./numbers.txt
+./project
+./project/data
+./project/results
+./proteins
+./proteins/alkanes.pdb
+./proteins/all.pdb
+./proteins/cubane-25
+./proteins/cubane-30
+./proteins/cubane-37
+./proteins/cubane-40
+./proteins/cubane.pdb
+./proteins/ethane-25
+./proteins/ethane-30
+./proteins/ethane-37
+./proteins/ethane-40
+./proteins/ethane.pdb
+./proteins/lenghts.txt
+./proteins/lengths.txt
+./proteins/longest.sh
+./proteins/methane-25
+./proteins/methane-30
+./proteins/methane-37
+./proteins/methane-40
+./proteins/methane.pdb
+./proteins/middle.sh
+./proteins/octane.pdb
+./proteins/pentane.pdb
+./proteins/propane.pdb
+./proteins/script.sh
+./proteins/script1.sh
+./proteins/script2.sh
+./proteins/script3.sh
+./proteins/sorted-lenghts.txt
+./proteins/sorted.sh
+./proteins/testfile01.txt
+./proteins/testfile02.txt
+./writing
+./writing/.txt
+./writing/haiku.txt
+./writing/LittleWomen.txt
+./writing/thesis_backup
+./writing/thesis_backup/quotations.txt
+./writing/women.sh
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ find . -type d
+[?2004l.
+./animal-counts
+./backup
+./creatures
+./project
+./project/data
+./project/results
+./proteins
+./proteins/cubane-25
+./proteins/cubane-30
+./proteins/cubane-37
+./proteins/cubane-40
+./proteins/ethane-25
+./proteins/ethane-30
+./proteins/ethane-37
+./proteins/ethane-40
+./proteins/methane-25
+./proteins/methane-30
+./proteins/methane-37
+./proteins/methane-40
+./writing
+./writing/thesis_backup
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ find . -type f
+[?2004l./animal-counts/animals-subset.csv
+./animal-counts/animals-subset.csv.txt
+./animal-counts/animals.csv
+./animal-counts/bear.txt
+./animal-counts/count-species.sh
+./animal-counts/final.txt
+./animal-counts/rabbit.txt
+./animal-counts/recent.sh
+./animal-counts/redo-figure-3.sh
+./animal-counts/species.sh
+./animal-subset.csv
+./animals-subset.csv
+./backup/minotaur.dat
+./backup/unicorn.dat
+./creatures/basilisk.dat
+./creatures/minotaur.dat
+./creatures/original-basilisk.dat
+./creatures/original-minotaur.dat
+./creatures/original-unicorn.dat
+./creatures/unicorn.dat
+./longest.sh
+./numbers.txt
+./proteins/alkanes.pdb
+./proteins/all.pdb
+./proteins/cubane.pdb
+./proteins/ethane.pdb
+./proteins/lenghts.txt
+./proteins/lengths.txt
+./proteins/longest.sh
+./proteins/methane.pdb
+./proteins/middle.sh
+./proteins/octane.pdb
+./proteins/pentane.pdb
+./proteins/propane.pdb
+./proteins/script.sh
+./proteins/script1.sh
+./proteins/script2.sh
+./proteins/script3.sh
+./proteins/sorted-lenghts.txt
+./proteins/sorted.sh
+./proteins/testfile01.txt
+./proteins/testfile02.txt
+./writing/.txt
+./writing/haiku.txt
+./writing/LittleWomen.txt
+./writing/thesis_backup/quotations.txt
+./writing/women.sh
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ find . -name *.txt
+[?2004l./numbers.txt
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ find . -name numbers.txt
+[?2004l./numbers.txt
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ find . -name "*.txt"
+[?2004l./animal-counts/animals-subset.csv.txt
+./animal-counts/bear.txt
+./animal-counts/final.txt
+./animal-counts/rabbit.txt
+./numbers.txt
+./proteins/lenghts.txt
+./proteins/lengths.txt
+./proteins/sorted-lenghts.txt
+./proteins/testfile01.txt
+./proteins/testfile02.txt
+./writing/.txt
+./writing/haiku.txt
+./writing/LittleWomen.txt
+./writing/thesis_backup/quotations.txt
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ wc -l $(find . -name "*.txt")
+[?2004l      0 ./animal-counts/animals-subset.csv.txt
+      2 ./animal-counts/bear.txt
+      3 ./animal-counts/final.txt
+      6 ./animal-counts/rabbit.txt
+      5 ./numbers.txt
+      0 ./proteins/lenghts.txt
+      7 ./proteins/lengths.txt
+      7 ./proteins/sorted-lenghts.txt
+      1 ./proteins/testfile01.txt
+      2 ./proteins/testfile02.txt
+      0 ./writing/.txt
+     11 ./writing/haiku.txt
+  21022 ./writing/LittleWomen.txt
+      1 ./writing/thesis_backup/quotations.txt
+  21067 total
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ wc -l ./writing/LittleWomen.txt ./writing/haiku.txt ./numbers.txt
+[?2004l  21022 ./writing/LittleWomen.txt
+     11 ./writing/haiku.txt
+      5 ./numbers.txt
+  21038 total
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ grep "searching" $(find . -name "*.txt")
+[?2004l[35m[K./writing/haiku.txt[m[K[36m[K:[m[KWith [01;31m[Ksearching[m[K comes loss
+[35m[K./writing/LittleWomen.txt[m[K[36m[K:[m[Ksitting on the top step, affected to be [01;31m[Ksearching[m[K for her book, but was
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ d[Kfind create[Kures -name "*.dat" | grep -v unicorn
+[?2004lcreatures/basilisk.dat
+creatures/minotaur.dat
+creatures/original-basilisk.dat
+creatures/original-minotaur.dat
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ wc -l $(find . -name "*.dat") |sort -n
+[?2004l  163 ./backup/minotaur.dat
+  163 ./backup/unicorn.dat
+  163 ./creatures/basilisk.dat
+  163 ./creatures/minotaur.dat
+  163 ./creatures/original-basilisk.dat
+  163 ./creatures/original-minotaur.dat
+  163 ./creatures/original-unicorn.dat
+  163 ./creatures/unicorn.dat
+ 1304 total
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ exit
+[?2004lexit
+
+Script done on 2022-12-31 01:27:46+05:30 [COMMAND_EXIT_CODE="0"]
