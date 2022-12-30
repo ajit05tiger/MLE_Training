@@ -1,0 +1,433 @@
+Script started on 2022-12-30 18:06:34+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="83" LINES="36"]
+[?2004h]0;ajit05tiger@TIGER02636: ~[01;32majit05tiger@TIGER02636[00m:[01;34m~[00m$ m[Kcd /mnt/c/users/desk[K[K[K[Kajit.mishra/desktop/mle/modu;[Ke_1/shell-les son=[K-data
+[?2004lbash: cd: /mnt/c/users/ajit.mishra/desktop/mle/modue_1/shell-lesson-data: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: ~[01;32majit05tiger@TIGER02636[00m:[01;34m~[00m$ cd /mnt/c/users/ajit.mishra/desktop/m[Kmle/module_1/shell-le sson-data
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[00m$ cd exercise-data
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ d[Kcd creatue[Krer[Ks
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[00m$ head -n 5 basilisk.dat minotaur.dat unicorn.dat
+[?2004l==> basilisk.dat <==
+COMMON NAME: basilisk
+CLASSIFICATION: basiliscus vulgaris
+UPDATED: 1745-05-02
+CCCCAACGAG
+GAAACAGATC
+
+==> minotaur.dat <==
+COMMON NAME: minotaur
+CLASSIFICATION: bos hominus
+UPDATED: 1765-02-17
+CCCGAAGGAC
+CGACATCTCT
+
+==> unicorn.dat <==
+COMMON NAME: unicorn
+CLASSIFICATION: equus monoceros
+UPDATED: 1738-11-24
+AGCCGGGTCG
+CTTTACCTTA
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[00m$ for thing in list_of_things
+[?2004l[?2004h> do
+[?2004l[?2004h> operation_using
+[?2004l[?2004h> thing
+[?2004l[?2004h> done
+[?2004loperation_using: command not found
+Command 'thing' not found, did you mean:
+  command 'phing' from deb phing (2.16.1-1)
+  command 'tping' from deb lam-runtime (7.1.4-7)
+  command 'thin' from deb thin (1.8.0-1ubuntu3)
+Try: sudo apt install <deb name>
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[00m$ for filename in basilisk.dat minotaur.dat unicorn.dat
+[?2004l[?2004h> do
+[?2004l[?2004h> head -n 2 $filename | tail -n 1
+[?2004l[?2004h> done
+[?2004lCLASSIFICATION: basiliscus vulgaris
+CLASSIFICATION: bos hominus
+CLASSIFICATION: equus monoceros
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[00m$ for x in basilisk.dat minotaur.dat i[Kuno[Kicorn.dat
+[?2004l[?2004h> do
+[?2004l[?2004h> head -n 2 $x | tain -n 1[1P[1@l
+[?2004l[?2004h> di[Kone
+[?2004lCLASSIFICATION: basiliscus vulgaris
+CLASSIFICATION: bos hominus
+CLASSIFICATION: equus monoceros
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[00m$ for loop_varo[Kiable in 0 1 2 3 4 5 6 7 8 9
+[?2004l[?2004h> do
+[?2004l[?2004h> echo $loop_variable
+[?2004l[?2004h> done
+[?2004l0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[00m$ for datafile in * .pdb
+[?2004l[?2004h> do
+[?2004l[?2004h> ls $datafile
+[?2004l[?2004h> done
+[?2004l[0m[01;32mbasilisk.dat[0m
+[0m[01;32mminotaur.dat[0m
+[0m[01;32municorn.dat[0m
+ls: cannot access '.pdb': No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[00m$ cd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd proteins
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ for datafile in *.pdb
+[?2004l[?2004h> do
+[?2004l[?2004h> ls $datafile
+[?2004l[?2004h> done
+[?2004l[0m[01;32mcubane.pdb[0m
+[0m[01;32methane.pdb[0m
+[0m[01;32mmethane.pdb[0m
+[0m[01;32moctane.pdb[0m
+[0m[01;32mpentane.pdb[0m
+[0m[01;32mpropane.pdb[0m
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ for datafile in cubane.pdb ethane.pdb methe[Kane/[K.pdb octan e.pdb pentane.pdv[Kb propane.pdb
+[?2004l[?2004h> do
+[?2004l[?2004h> ls cubane.pdb ethane.pdb methane.pdb c[Koctane.pdb pentane.pdb propane.pdb
+[?2004l[?2004h> done
+[?2004l[0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m
+[0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m
+[0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m
+[0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m
+[0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m
+[0m[01;32mcubane.pdb[0m  [01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32moctane.pdb[0m  [01;32mpentane.pdb[0m  [01;32mpropane.pdb[0m
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ for filename in c*
+[?2004l[?2004h> do ls filename
+[?2004l[?2004h> done
+[?2004lls: cannot access 'filename': No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ for filename in c*
+[?2004l[?2004h> do
+[?2004l[?2004h> ls $filename
+[?2004l[?2004h> done
+[?2004l[0m[01;32mcubane.pdb[0m
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ for *[K[K filename in *c*
+[?2004l[?2004h> do
+[?2004l[?2004h> ls $filename
+[?2004l[?2004h> done
+[?2004l[0m[01;32mcubane.pdb[0m
+[0m[01;32moctane.pdb[0m
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ for alkanes in *pdb
+[?2004l[?2004h> do
+[?2004l[?2004h> echo $alkanes
+[?2004l[?2004h> cat $alkanes > alkanes.pdb
+[?2004l[?2004h> done
+[?2004lcubane.pdb
+ethane.pdb
+methane.pdb
+octane.pdb
+pentane.pdb
+propane.pdb
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ for datafile in *.pdb
+[?2004l[?2004h> do
+[?2004l[?2004h> cat $datafile >> all.pdb
+[?2004l[?2004h> done
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ for filename in *.dat[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd creatures
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[00m$ for filename in *.dat
+[?2004l[?2004h> do
+[?2004l[?2004h> echo $filename
+[?2004l[?2004h> head -n 100 $filename | tail -n 20
+[?2004l[?2004h> done
+[?2004lbasilisk.dat
+CGGTACCGAA
+AAGGGTCGCG
+CAAGTGTTCC
+CGGGACAATA
+GTTCTGCTAA
+GATAAGTATG
+TGCCGACTTA
+CCCGACCGTC
+TAGGTTATAA
+GGCACAACCG
+CTTCACTGTA
+GAGGTGTACA
+AGGATCCGTT
+GCGCGGGCGG
+CAGTCTATGT
+TTTTCGACAC
+TGGACTGCTT
+CCCTTTGAGG
+GTGGATTTTT
+CGTAACGGGT
+minotaur.dat
+GGTTGGACCG
+AGTGAACGAA
+GCGATTGATG
+CCCAGTATTG
+GTTTCGGGTC
+CCACCAGGAA
+CAATGTTGGA
+CTTTAGCACG
+ACAGGAATCA
+ATCGTTTCGT
+AATGGTGGCA
+CTTTGGGGTT
+GCAGGCCCGC
+CTGTGCCTTC
+AACGGTCGGC
+AAATAGGACA
+GAGATTTCCT
+GCCTCAAACA
+TCGCAAGACG
+ATTTATCCGG
+unicorn.dat
+CGGTACCGAA
+AAGGGTCGCG
+CAAGTGTTCC
+CGGGACAATA
+GTTCTGCTAA
+GATAAGTATG
+TGCCGACTTA
+CCCGACCGTC
+TAGGTTATAA
+GGCACAACCG
+CTTCACTGTA
+GAGGTGTACA
+AGGATCCGTT
+GCGCGGGCGG
+CAGTCTATGT
+TTTTCGACAC
+TGGACTGCTT
+CCCTTTGAGG
+GTGGATTTTT
+CGTAACGGGT
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[00m$ for filename in *.dat
+[?2004l[?2004h> do
+[?2004l[?2004h> $filename
+[?2004l[?2004h> head -n 100 $filename | tail -n 20
+[?2004l[?2004h> done
+[?2004lbasilisk.dat: command not found
+CGGTACCGAA
+AAGGGTCGCG
+CAAGTGTTCC
+CGGGACAATA
+GTTCTGCTAA
+GATAAGTATG
+TGCCGACTTA
+CCCGACCGTC
+TAGGTTATAA
+GGCACAACCG
+CTTCACTGTA
+GAGGTGTACA
+AGGATCCGTT
+GCGCGGGCGG
+CAGTCTATGT
+TTTTCGACAC
+TGGACTGCTT
+CCCTTTGAGG
+GTGGATTTTT
+CGTAACGGGT
+minotaur.dat: command not found
+GGTTGGACCG
+AGTGAACGAA
+GCGATTGATG
+CCCAGTATTG
+GTTTCGGGTC
+CCACCAGGAA
+CAATGTTGGA
+CTTTAGCACG
+ACAGGAATCA
+ATCGTTTCGT
+AATGGTGGCA
+CTTTGGGGTT
+GCAGGCCCGC
+CTGTGCCTTC
+AACGGTCGGC
+AAATAGGACA
+GAGATTTCCT
+GCCTCAAACA
+TCGCAAGACG
+ATTTATCCGG
+unicorn.dat: command not found
+CGGTACCGAA
+AAGGGTCGCG
+CAAGTGTTCC
+CGGGACAATA
+GTTCTGCTAA
+GATAAGTATG
+TGCCGACTTA
+CCCGACCGTC
+TAGGTTATAA
+GGCACAACCG
+CTTCACTGTA
+GAGGTGTACA
+AGGATCCGTT
+GCGCGGGCGG
+CAGTCTATGT
+TTTTCGACAC
+TGGACTGCTT
+CCCTTTGAGG
+GTGGATTTTT
+CGTAACGGGT
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[00m$ for filename in ''[Kred dragon.dat' 'purple unicorn.dat'
+[?2004l[?2004h> do
+[?2004l[?2004h> head -n 100 '$filename' | tail -n 20
+[?2004l[?2004h> done
+[?2004lhead: cannot open '$filename' for reading: No such file or directory
+head: cannot open '$filename' for reading: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[00m$ for df[K[Kfilename in 'red f[Kdragon.dat' 'purple unicorn.dat'
+[?2004l[?2004h> do
+[?2004l[?2004h> head -n 100 $filename | tain -n 204[K
+[?2004l[?2004h> done
+[?2004lhead: cannot open 'red' for reading: No such file or directory
+head: cannot open 'dragon.dat' for reading: No such file or directory
+Command 'tain' not found, did you mean:
+  command 'tin' from deb tin (1:2.6.2~20220129-1)
+  command 'twin' from deb twin (0.9.0-0ubuntu1)
+  command 'rain' from deb bsdgames (2.17-29)
+  command 'thin' from deb thin (1.8.0-1ubuntu3)
+  command 'tail' from deb coreutils (8.32-4.1ubuntu1)
+  command 'train' from deb tracetuner (3.0.6~beta+dfsg-3)
+Try: sudo apt install <deb name>
+head: cannot open 'purple' for reading: No such file or directory
+Command 'tain' not found, did you mean:
+  command 'twin' from deb twin (0.9.0-0ubuntu1)
+  command 'tin' from deb tin (1:2.6.2~20220129-1)
+  command 'thin' from deb thin (1.8.0-1ubuntu3)
+  command 'rain' from deb bsdgames (2.17-29)
+  command 'train' from deb tracetuner (3.0.6~beta+dfsg-3)
+  command 'tail' from deb coreutils (8.32-4.1ubuntu1)
+Try: sudo apt install <deb name>
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[00m$ cp * [K.dat original-*.dat
+[?2004lcp: target 'original-*.dat' is not a directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[00m$ for filename in *.dat
+[?2004l[?2004h> do
+[?2004l[?2004h> cp $filename original-$filename
+[?2004l[?2004h> done'[K
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[00m$ cp basilisk.dat original-basilisk.dat
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[00m$ cp minotaur.dat original-minotaur.dat
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/creatures[00m$ cd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[00m$ cd north-pacific-gyre
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ for datafile in NENE*A.txt NENE*B.txt
+[?2004l[?2004h> do
+[?2004l[?2004h> echo $datafile
+[?2004l[?2004h> done
+[?2004lNENE01729A.txt
+NENE01736A.txt
+NENE01751A.txt
+NENE01812A.txt
+NENE01843A.txt
+NENE01978A.txt
+NENE02040A.txt
+NENE02043A.txt
+NENE01729B.txt
+NENE01751B.txt
+NENE01843B.txt
+NENE01978B.txt
+NENE02018B.txt
+NENE02040B.txt
+NENE02043B.txt
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ for datafile in NENE*A.txt NENE*B.txt
+[?2004l[?2004h> do
+[?2004l[?2004h> echo $datafile state[Ks-$datafile
+[?2004l[?2004h> done'
+[?2004l[?2004h> done
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ for dt[Katafile in NENE*A.txt NENE*B.txt
+[?2004l[?2004h> do
+[?2004l[?2004h> echo $f[Kdatafile stats-$datafile
+[?2004l[?2004h> done
+[?2004lNENE01729A.txt stats-NENE01729A.txt
+NENE01736A.txt stats-NENE01736A.txt
+NENE01751A.txt stats-NENE01751A.txt
+NENE01812A.txt stats-NENE01812A.txt
+NENE01843A.txt stats-NENE01843A.txt
+NENE01978A.txt stats-NENE01978A.txt
+NENE02040A.txt stats-NENE02040A.txt
+NENE02043A.txt stats-NENE02043A.txt
+NENE01729B.txt stats-NENE01729B.txt
+NENE01751B.txt stats-NENE01751B.txt
+NENE01843B.txt stats-NENE01843B.txt
+NENE01978B.txt stats-NENE01978B.txt
+NENE02018B.txt stats-NENE02018B.txt
+NENE02040B.txt stats-NENE02040B.txt
+NENE02043B.txt stats-NENE02043B.txt
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ for datafile in NENE*A NENE*B. NENE*Bt NENE*Bx NENE*Bt NENE*B[C[C[C[C[C[C[C.txt; do echo $datafile st ats-$datafile; done
+[?2004lNENE01729A.txt stats-NENE01729A.txt
+NENE01736A.txt stats-NENE01736A.txt
+NENE01751A.txt stats-NENE01751A.txt
+NENE01812A.txt stats-NENE01812A.txt
+NENE01843A.txt stats-NENE01843A.txt
+NENE01978A.txt stats-NENE01978A.txt
+NENE02040A.txt stats-NENE02040A.txt
+NENE02043A.txt stats-NENE02043A.txt
+NENE01729B.txt stats-NENE01729B.txt
+NENE01751B.txt stats-NENE01751B.txt
+NENE01843B.txt stats-NENE01843B.txt
+NENE01978B.txt stats-NENE01978B.txt
+NENE02018B.txt stats-NENE02018B.txt
+NENE02040B.txt stats-NENE02040B.txt
+NENE02043B.txt stats-NENE02043B.txt
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ for datafile in NENE*A.txt NENE*B.txt [K'[K; do bash goostats.sh  $datafile stats-$datafile [K; done
+[?2004l^[[D^[[D
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ 
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ for datafile in NENE*A.txt NENE*B.txt; do bash goostats.sh $datafile stats-$datafile; done[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C bash goostats.sh [1@$[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce bash goostats.sh[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc bash goostats.s[1@h[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch bash goostats.[1@s[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co bash goostats[1@.[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C bash goostat[1@s[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C$ bash goosta[1@t[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd bash goost[1@a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca bash goos[1@t[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct bash goo[1@s[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca bash go[1@o[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cf bash g[C[1@o[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci bash [1@g[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl bash[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce bas[1@h[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; ba[1@s[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004lNENE01729A.txt
+NENE01736A.txt
+NENE01751A.txt
+NENE01812A.txt
+NENE01843A.txt
+NENE01978A.txt
+NENE02040A.txt
+NENE02043A.txt
+NENE01729B.txt
+NENE01751B.txt
+NENE01843B.txt
+NENE01978B.txt
+NENE02018B.txt
+NENE02040B.txt
+NENE02043B.txt
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ history | tail -n 5
+[?2004ldone
+  260  for datafile in NENE*A.txt NENE*B.txt; do echo $datafile stats-$datafile; done
+  261  for datafile in NENE*A.txt NENE*B.txt; do bash goostats.sh $datafile stats-$datafile; done
+  262  for datafile in NENE*A.txt NENE*B.txt; do echo $datafile; bash goostats.sh $datafile stats-$datafile; done
+  263  history | tail -n 5
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ [A(reverse-i-search)`': [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ history | tail -n 5for datafile in NENE*A.txt NENE*B.txt; do echo $datafile; bash goostats.sh $datafile stats-$datafile; done[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbash goostats.sh $[16P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $datafile sta[12P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'
+done[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; done[K
+[K[A[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[38Pcd north-pacific-gyre
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C..[Kp minotaur.dat original-minotaur.dat[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kfor datafile in *.pdb
+[?2004l[?2004h> do
+[?2004l[?2004h> cat $datafile >> all.pdb
+[?2004l[?2004h> done
+[?2004lcat: '*.pdb': No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ cd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[00m$ cd exercise-data
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd proteins
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ for datafile in *.pdb [K
+[?2004l[?2004h> do
+[?2004l[?2004h> echo cat $datafile >> all.pdb
+[?2004l[?2004h> done
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ for datafile in *.pdb
+[?2004l[?2004h> do
+[?2004l[?2004h> echo cat$datafile[C[C t$datafile[1Pt$datafile[C $datafile[C[C[C[C[C[C[C[C[C >> all.pdb
+[?2004l[?2004h> done
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ for datafile in *.pdb
+[?2004l[?2004h> do
+[?2004l[?2004h> echo "cat $datafile >> all.pdb"
+[?2004l[?2004h> done
+[?2004lcat alkanes.pdb >> all.pdb
+cat all.pdb >> all.pdb
+cat cubane.pdb >> all.pdb
+cat ethane.pdb >> all.pdb
+cat methane.pdb >> all.pdb
+cat octane.pdb >> all.pdb
+cat pentane.pdb >> all.pdb
+cat propane.pdb >> all.pdb
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ for species in cubane ethane methane
+[?2004l[?2004h> do
+[?2004l[?2004h> for temperature in 25 30 37 40
+[?2004l[?2004h> do [K
+[?2004l[?2004h> mkdir $species-$temperature
+[?2004l[?2004h> done
+[?2004l[?2004h> done
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ exit
+[?2004lexit
+
+Script done on 2022-12-30 19:26:22+05:30 [COMMAND_EXIT_CODE="0"]
