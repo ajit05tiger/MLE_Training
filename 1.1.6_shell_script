@@ -1,0 +1,459 @@
+Script started on 2022-12-30 19:44:42+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="83" LINES="36"]
+[?2004h]0;ajit05tiger@TIGER02636: ~[01;32majit05tiger@TIGER02636[00m:[01;34m~[00m$ cd /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-le sson-data/exercise-data
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd proteibn[K[Kns
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ nano middle.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;36H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                         middle.sh                                   [1;82H(B[m[35d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[36d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;50H(B[0;7m*[82G(B[m[?12l[?25h[2dh[?25l[?12l[?25he[?25l[?12l[?25ha[?25l[?12l[?25h(B[0;1m[34mhead[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h 1[?25l[?12l[?25h5[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h o[?25l[?12l[?25hc[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hp[?25l[34d[K[?12l[?25h[2;20Hd[?25l[?12l[?25hb[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h t[?25l[?12l[?25ha[?25l[?12l[?25hi[?25l[?12l[?25h(B[0;1m[34mtail[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h 5[?25l[3d[?12l[?25h[?25l[35;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: middle.sh                                                      [34;30H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;50H(B[0;7m [82G(B[m[34;34H(B[0;7m[ Wrote 2 lines ](B[m[35;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[36;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h[3d[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ bash midl[Kdle,[K.sh
+[?2004lATOM      9  H           1      -4.502   0.681   0.785  1.00  0.00
+ATOM     10  H           1      -5.254  -0.243  -0.537  1.00  0.00
+ATOM     11  H           1      -4.357   1.252  -0.895  1.00  0.00
+ATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
+ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ nano middle.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;35H(B[0;7m[ Reading... ](B[m[34;34H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 6.2                         middle.sh                                   [1;82H(B[m[35d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[36d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d(B[0;1m[34mhead[35m -n[39m(B[m 15 octane.pdb [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h1[?25l[?12l[?25h5[?25l[?12l[?25h [?25l[?12l[?25ho[?25l[?12l[?25hc[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hp[?25l[34d[K[?12l[?25h[2;21H[?25l[?12l[?25hb[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h5[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hd[?25l[1;50H(B[0;7m*[82G(B[m[?12l[?25h[2;20H[1P[?25l[?12l[?25hb[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h" [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[2;13H[?25l[?12l[?25h[32m$[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[2;14H[?25l[?12l[?25h(B[0;1m[31m$1[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[2;15H[?25l[?12l[?25h(B[0;1m[33m"$1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[2;16H[?25l[35;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: middle.sh                                                      [34;30H(B[m[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;50H(B[0;7m [82G(B[m[34;34H(B[0;7m[ Wrote 2 lines ](B[m[35;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[36;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h[2;16H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ head -[K[K[K[K[K[Kbash middle.sh octane.pdb
+[?2004lATOM      9  H           1      -4.502   0.681   0.785  1.00  0.00
+ATOM     10  H           1      -5.254  -0.243  -0.537  1.00  0.00
+ATOM     11  H           1      -4.357   1.252  -0.895  1.00  0.00
+ATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
+ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ bash middle.sh pentane.pdb
+[?2004lATOM      9  H           1       1.324   0.350  -1.332  1.00  0.00
+ATOM     10  H           1       1.271   1.378   0.122  1.00  0.00
+ATOM     11  H           1      -0.074  -0.384   1.288  1.00  0.00
+ATOM     12  H           1      -0.048  -1.362  -0.205  1.00  0.00
+ATOM     13  H           1      -1.183   0.500  -1.412  1.00  0.00
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ nano.[K middle.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;35H(B[0;7m[ Reading... ](B[m[34;34H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 6.2                         middle.sh                                   [1;82H(B[m[35d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[36d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d(B[0;1m[34mhead[35m -n[39m(B[m 15 (B[0;1m[33m"$1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[?12l[?25h[?25l[1;50H(B[0;7m*[82G(B[m[?12l[?25h[2dhhead(B[0;1m[35m -n[39m(B[m 15 (B[0;1m[33m"$1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5h[?25l[?12l[?25hehead(B[0;1m[35m -n[39m(B[m 15 (B[0;1m[33m"$1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5he[?25l[?12l[?25hahead(B[0;1m[35m -n[39m(B[m 15 (B[0;1m[33m"$1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5hea[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h(B[0;1m[34mhead[39m(B[m[1P[?25l[?12l[?25h (B[0;1m[34mhead[35m -n[39m(B[m 15 (B[0;1m[33m"$1"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5 [?25l[?12l[?25h[1P[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h1[?25l[?12l[?25h5[?25l[?12l[?25h [?25l[34d[K[?12l[?25h[2;13H[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h  [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[2;17H[?25l[?12l[?25h" [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[2;18H[?25l[?12l[?25h[32m$[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[2;19H[?25l[?12l[?25h(B[0;1m[31m$2[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[2;20H[?25l[?12l[?25h(B[0;1m[33m"$2"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[2;21H[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h5[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h "[?25l[?12l[?25h[32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$3[39m(B[m[?25l[?12l[?25h(B[0;1m[33m"$3"[39m(B[m[?25l[35;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: middle.sh                                                      [34;30H(B[m[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;50H(B[0;7m [82G(B[m[34;34H(B[0;7m[ Wrote 2 lines ](B[m[35;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[36;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h[2;36H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ bash miss[K[Kddle.sh pentane.pdb 15 5
+[?2004lhead: cannot open '15' for reading: No such file or directory
+ATOM      9  H           1       1.324   0.350  -1.332  1.00  0.00
+ATOM     10  H           1       1.271   1.378   0.122  1.00  0.00
+ATOM     11  H           1      -0.074  -0.384   1.288  1.00  0.00
+ATOM     12  H           1      -0.048  -1.362  -0.205  1.00  0.00
+ATOM     13  H           1      -1.183   0.500  -1.412  1.00  0.00
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ bash middle [K.sh pentane.pdb 20 5
+[?2004lhead: cannot open '20' for reading: No such file or directory
+ATOM      9  H           1       1.324   0.350  -1.332  1.00  0.00
+ATOM     10  H           1       1.271   1.378   0.122  1.00  0.00
+ATOM     11  H           1      -0.074  -0.384   1.288  1.00  0.00
+ATOM     12  H           1      -0.048  -1.362  -0.205  1.00  0.00
+ATOM     13  H           1      -1.183   0.500  -1.412  1.00  0.00
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ nano middle.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;35H(B[0;7m[ Reading... ](B[m[34;34H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 6.2                         middle.sh                                   [1;82H(B[m[35d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[36d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d(B[0;1m[34mhead[35m -n[39m(B[m 15 (B[0;1m[33m"$1"[39m(B[m (B[0;1m[33m"$2"[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m (B[0;1m[33m"$3"[39m(B[m[?12l[?25h[?25l[1;50H(B[0;7m*[82G(B[m7[2;33r8[2dM[1;36r[3;1H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[36m#[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m S[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36ml[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36mc[39m(B[m[?25l[?12l[?25h[36mt[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m l[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36mn[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m f[39m(B[m[?25l[?12l[?25h[36mr[39m(B[m[?25l[34d[K[?12l[?25h[2;18H[36mo[39m(B[m[?25l[?12l[?25h[36mm[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m t[39m(B[m[?25l[?12l[?25h[36mh[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m m[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36md[39m(B[m[?25l[?12l[?25h[36md[39m(B[m[?25l[?12l[?25h[36ml[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m o[39m(B[m[?25l[?12l[?25h[36mf[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m a[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m f[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36ml[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36m.[39m(B[m[?25l7[3;34r8[3dM[1;36r[3;1H[?12l[?25h[?25l[?12l[?25h[36m#[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m U[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36mg[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36m:[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m b[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36mh[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m m[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36md[39m(B[m[?25l[?12l[?25h[36md[39m(B[m[?25l[?12l[?25h[36ml[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36m.[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36mh[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m f[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36ml[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36mn[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36mm[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m e[39m(B[m[?25l[?12l[?25h[36mn[39m(B[m[?25l[?12l[?25h[36md[39m(B[m[?25l[?12l[?25h[36m_[39m(B[m[?25l[?12l[?25h[36ml[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36mn[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m n[39m(B[m[?25l[?12l[?25h[36mu[39m(B[m[?25l[?12l[?25h[36mm[39m(B[m[?25l[?12l[?25h[36m_[39m(B[m[?25l[?12l[?25h[36ml[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36mn[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[35;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: middle.sh                                                      [34;30H(B[m[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;50H(B[0;7m [82G(B[m[34;34H(B[0;7m[ Wrote 4 lines ](B[m[35;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[36;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h[3;52H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ wc -l *.pdb | sort -n
+[?2004l    9 methane.pdb
+   12 ethane.pdb
+   15 alkanes.pdb
+   15 propane.pdb
+   20 cubane.pdb
+   21 pentane.pdb
+   30 octane.pdb
+  138 all.pdb
+  260 total
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ nano sorted.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;36H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                         sorted.sh                                   [1;82H(B[m[35d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[36d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;50H(B[0;7m*[82G(B[m[?12l[?25h[2d[36m#[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m s[39m(B[m[?25l[?12l[?25h[36mo[39m(B[m[?25l[?12l[?25h[36mr[39m(B[m[?25l[?12l[?25h[36mt[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m f[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36ml[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m b[39m(B[m[?25l[?12l[?25h[36my[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m t[39m(B[m[?25l[?12l[?25h[36mh[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[34d[K[?12l[?25h[2;20H[36mi[39m(B[m[?25l[?12l[?25h[36mr[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m l[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36mn[39m(B[m[?25l[?12l[?25h[36mg[39m(B[m[?25l[?12l[?25h[36mt[39m(B[m[?25l[?12l[?25h[36mh[39m(B[m[?25l[?12l[?25h[36m.[39m(B[m[?25l[3d[?12l[?25h[?25l[?12l[?25h[36m#[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m U[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36mg[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36m:[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m b[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36mh[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m s[39m(B[m[?25l[?12l[?25h[36mo[39m(B[m[?25l[?12l[?25h[36mr[39m(B[m[?25l[?12l[?25h[36mt[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36md[39m(B[m[?25l[?12l[?25h[36m.[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36mh[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m p[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h[36m o[39m(B[m[?25l[?12l[?25h[36mn[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36m_[39m(B[m[?25l[?12l[?25h[36mo[39m(B[m[?25l[?12l[?25h[36mr[39m(B[m[?25l[?12l[?25h[36m_[39m(B[m[?25l[?12l[?25h[36mm[39m(B[m[?25l[?12l[?25h[36mo[39m(B[m[?25l[?12l[?25h[36mr[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [?25l[?12l[?25h[36m_[39m(B[m[?25l[?12l[?25h[36mf[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36ml[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36mn[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36mm[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[4d[?12l[?25h[?25l[?12l[?25hw[?25l[?12l[?25hc[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -l[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h[32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$@[39m(B[m[?25l[?12l[?25h(B[0;1m[33m"$@"[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h s[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25h(B[0;1m[34msort[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[35;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: sorted.sh                                                      [34;30H(B[m[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;50H(B[0;7m [82G(B[m[34;34H(B[0;7m[ Wrote 3 lines ](B[m[35;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[36;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h[4;21H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ bash sorted.sh *.pdb ../creatures/*.dat
+[?2004l    9 methane.pdb
+   12 ethane.pdb
+   15 alkanes.pdb
+   15 propane.pdb
+   20 cubane.pdb
+   21 pentane.pdb
+   30 octane.pdb
+  138 all.pdb
+  163 ../creatures/basilisk.dat
+  163 ../creatures/minotaur.dat
+  163 ../creatures/original-basilisk.dat
+  163 ../creatures/original-minotaur.dat
+  163 ../creatures/original-unicorn.dat
+  163 ../creatures/unicorn.dat
+ 1238 total
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ cf[Kdd[K ../animal-coy[Kunt/animals[K[K[K[K[K[K[K[K
+[?2004lbash: cd: ../animal-count: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ cd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd animal-counts
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ cd animals.csv
+[?2004lbash: cd: animals.csv: Not a directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ nano species.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;36H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                         species.sh                                  [1;82H(B[m[35d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[36d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;51H(B[0;7m*[82G(B[m[?12l[?25h[2df[?25l[?12l[?25ho[?25l[?12l[?25h[32mfor[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h f[?25l[?12l[?25h[32mfi[39m(B[m[?25l[?12l[?25hfil[?25l[?12l[?25he[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h i[?25l[?12l[?25h[32min[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$@[39m(B[m[?25l[3d[?12l[?25h[?25l[?12l[?25hd[?25l[?12l[?25h[32mdo[39m(B[m[?25l[4d[?12l[?25h[?25l[?12l[?25h[8G[42m[1K [49m(B[m[?25l[34d[K[?12l[?25h[4;8H[1K e[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25hU[?25l[?12l[?25hn[?25l[?12l[?25hi[?25l[?12l[?25hq[?25l[?12l[?25hu[?25l[?12l[?25he[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h s[?25l[?12l[?25hp[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25hi[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h i[?25l[?12l[?25h[32min[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$f[39m(B[m[?25l[?12l[?25h(B[0;1m[31mi[39m(B[m[?25l[?12l[?25h(B[0;1m[31ml[39m(B[m[?25l[?12l[?25h(B[0;1m[31me[39m(B[m[?25l[?12l[?25h[32m:[39m(B[m[?25l[?12l[?25h[4;14H(B[0;1m[33m"Unique species in $file:"[39m(B[m[?25l[5d[?12l[?25h[?25l[?12l[?25hc[?25l[?12l[?25hu[?25l[?12l[?25h(B[0;1m[34mcut[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -d[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h ,[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -f[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h 2[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$f[39m(B[m[?25l[?12l[?25h(B[0;1m[31mi[39m(B[m[?25l[?12l[?25h(B[0;1m[31ml[39m(B[m[?25l[?12l[?25h(B[0;1m[31me[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h s[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25h(B[0;1m[34msort[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h u[?25l[?12l[?25hn[?25l[?12l[?25hi[?25l[?12l[?25hq[?25l[6d[?12l[?25h[?25l[?12l[?25hd[?25l[?12l[?25h[32mdo[39m(B[m[?25l[?12l[?25hdom[?25l[?12l[?25h[32mdo[39m(B[m[K[?25l[?12l[?25hdon[?25l[?12l[?25h[32mdone[39m(B[m[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[8G[1K (B[0;1m[34mcut[35m -d[39m(B[m ,(B[0;1m[35m -f[39m(B[m 2 (B[0;1m[31m$file[39m(B[m [32m|[39m(B[m (B[0;1m[34msort[39m(B[m [32m|[39m(B[m uniq[5;9H[?25l[35;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: species.sh                                                     [34;31H(B[m[?12l[?25h[?25l   [1K (B[0;7m[ Writing... ](B[m[K[1;51H(B[0;7m [82G(B[m[34;34H(B[0;7m[ Wrote 5 lines ](B[m[35;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[36;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h[5;9H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ bash sor[K[Kpecies.sh
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ bAa[K[Kash species.sh *.csv
+[?2004lUnique species in animals-subset.csv:
+bear
+deer
+rabbit
+raccoon
+Unique species in animals.csv:
+bear
+deer
+fox
+rabbit
+raccoon
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ history | tail -n 5 > redo-figure-3.sh
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ history | tail -n 5 > recent.sh
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ [K[A]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-d
+ata/exercise-data/animal-counts[00m$ cd ../../north-specific-gyre/
+[?2004lbash: cd: ../../north-specific-gyre/: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/animal-counts[00m$ cd ../,,[K[K../noty[K[Krth-specific[C[1Pcific[1Pcific[1Pcificpcificacific[C[C[C[C[C-gyre/
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ nano do-stats.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;37H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                         do-stats.sh                                  [1;83H(B[m[35d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[35;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;52H(B[0;7m*[83G(B[m[?12l[?25h[2d[36m#[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m C[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36ml[39m(B[m[?25l[?12l[?25h[36mc[39m(B[m[?25l[?12l[?25h[36mu[39m(B[m[?25l[?12l[?25h[36ml[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36mt[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m s[39m(B[m[?25l[?12l[?25h[36mt[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36mt[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m f[39m(B[m[?25l[34d[K[?12l[?25h[2;20H[36mo[39m(B[m[?25l[?12l[?25h[36mr[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m d[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36mt[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m f[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36ml[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36m.[39m(B[m[?25l[3d[?12l[?25h[?25l[?12l[?25hf[?25l[?12l[?25ho[?25l[?12l[?25h[32mfor[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h d[?25l[?12l[?25ha[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h i[?25l[?12l[?25h[32min[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h[32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$@[39m(B[m[?25l[?12l[?25h(B[0;1m[33m"$@"[39m(B[m[?25l[4d[?12l[?25h[?25l[?12l[?25hd[?25l[?12l[?25h[32mdo[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [?25l[5d[?12l[?25h[?25l[?12l[?25h[8G[42m[1K [49m(B[m[?25l[?12l[?25h[1K e[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$d[39m(B[m[?25l[?12l[?25h(B[0;1m[31ma[39m(B[m[?25l[?12l[?25h(B[0;1m[31mt[39m(B[m[?25l[?12l[?25h(B[0;1m[31ma[39m(B[m[?25l[?12l[?25h(B[0;1m[31mf[39m(B[m[?25l[?12l[?25h(B[0;1m[31mi[39m(B[m[?25l[?12l[?25h(B[0;1m[31ml[39m(B[m[?25l[?12l[?25h(B[0;1m[31me[39m(B[m[?25l[6d[?12l[?25h[?25l[?12l[?25h[8G[42m[1K [49m(B[m[?25l[?12l[?25h[1K b[?25l[?12l[?25ha[?25l[?12l[?25hs[?25l[?12l[?25hh[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h g[?25l[?12l[?25ho[?25l[?12l[?25ho[?25l[?12l[?25hd[?25l[?12l[?25ht[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25ht[?25l[?12l[?25hs[?25l[?12l[?25h.[?25l[?12l[?25hs[?25l[?12l[?25hh[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$d[39m(B[m[?25l[?12l[?25h(B[0;1m[31ma[39m(B[m[?25l[?12l[?25h(B[0;1m[31mt[39m(B[m[?25l[?12l[?25h(B[0;1m[31ma[39m(B[m[?25l[?12l[?25h(B[0;1m[31mf[39m(B[m[?25l[?12l[?25h(B[0;1m[31mi[39m(B[m[?25l[?12l[?25h(B[0;1m[31ml[39m(B[m[?25l[?12l[?25h(B[0;1m[31me[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h s[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25ht[?25l[?12l[?25hs[?25l[?12l[?25h-[?25l[?12l[?25h[32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$d[39m(B[m[?25l[?12l[?25h(B[0;1m[31ma[39m(B[m[?25l[?12l[?25h(B[0;1m[31mt[39m(B[m[?25l[?12l[?25h(B[0;1m[31ma[39m(B[m[?25l[?12l[?25h(B[0;1m[31mf[39m(B[m[?25l[?12l[?25h(B[0;1m[31mi[39m(B[m[?25l[?12l[?25h(B[0;1m[31ml[39m(B[m[?25l[?12l[?25h(B[0;1m[31me[39m(B[m[?25l[7d[?12l[?25h[?25l[?12l[?25hd[?25l[?12l[?25h[32mdo[39m(B[m[?25l[?12l[?25hdon[?25l[?12l[?25h[32mdone[39m(B[m[?25l[35;15H       (B[0;7mM-D(B[m DOS Format       (B[0;7mM-A(B[m Append           (B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel            (B[0;7mM-M(B[m Mac Format       (B[0;7mM-P(B[m Prepend          (B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: do-stats.sh                                                     [34;32H(B[m[?12l[?25h[?25l[?12l[?25h[?25l   [1K (B[0;7m[ Writing... ](B[m[K[1;52H(B[0;7m [83G(B[m[34;34H(B[0;7m[ Wrote 6 lines ](B[m[35;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[?12l[?25h[7;5H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ bash do-stats.sh NENE*A.txt NENE*B.txt
+[?2004lNENE01729A.txt
+NENE01736A.txt
+NENE01751A.txt
+NENE01812A.txt
+NENE01843A.txt
+NENE01978A.txt
+NENE02040A.txt
+NENE02043A.txt
+NENE01729B.txt
+NENE01751B.txt
+NENE01843B.txt
+NENE01978B.txt
+NENE02018B.txt
+NENE02040B.txt
+NENE02043B.txt
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ bsh[K[Kash do-stats.sh NENE*A.txt NENE*B.txt | wc -l
+[?2004l15
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ cd ..[K[K[K..
+[?2004lcd..: command not found
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ cd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[00m$ cd exercise-data
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd proteins
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ nano script.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;37H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                          script.sh                                   [1;83H(B[m[35d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[35;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;51H(B[0;7m*[83G(B[m[?12l[?25h[2dh[?25l[?12l[?25he[?25l[?12l[?25ha[?25l[?12l[?25h(B[0;1m[34mhead[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$2[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$1[39m(B[m[?25l[3d[?12l[?25h[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25hi[?25l[?12l[?25h(B[0;1m[34mtail[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[34d[K[?12l[?25h[3;5H -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$3[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$1[39m(B[m[?25l[35;15H       (B[0;7mM-D(B[m DOS Format       (B[0;7mM-A(B[m Append           (B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel            (B[0;7mM-M(B[m Mac Format       (B[0;7mM-P(B[m Prepend          (B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: script.sh                                                       [34;30H(B[m[?12l[?25h[?25l[35G[1K (B[0;7m[ Writing... ](B[m[K[1;51H(B[0;7m [83G(B[m[34;34H(B[0;7m[ Wrote 2 lines ](B[m[35;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[?12l[?25h[3;14H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ bash script.sh '*.pdb' 1 1
+[?2004l==> alkanes.pdb <==
+COMPND      PROPANE
+
+==> all.pdb <==
+COMPND      PROPANE
+
+==> cubane.pdb <==
+COMPND      CUBANE
+
+==> ethane.pdb <==
+COMPND      ETHANE
+
+==> methane.pdb <==
+COMPND      METHANE
+
+==> octane.pdb <==
+COMPND      OCTANE
+
+==> pentane.pdb <==
+COMPND      PENTANE
+
+==> propane.pdb <==
+COMPND      PROPANE
+==> alkanes.pdb <==
+END
+
+==> all.pdb <==
+cat propane.pdb
+
+==> cubane.pdb <==
+END
+
+==> ethane.pdb <==
+END
+
+==> methane.pdb <==
+END
+
+==> octane.pdb <==
+END
+
+==> pentane.pdb <==
+END
+
+==> propane.pdb <==
+END
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ bash longest.sh shell-lesson-data/exercis[Kse-data/proteins  pdb
+[?2004lbash: longest.sh: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ bash nano [K[K[K[K[K[K[K[K[K[Knano longest.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;37H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                         longest.sh                                   [1;83H(B[m[35d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[35;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;51H(B[0;7m*[83G(B[m[?12l[?25h[2dw[?25l[?12l[?25hc[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -l[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$1[39m(B[m[?25l[?12l[?25h/[?25l[?12l[?25h*[?25l[?12l[?25h.[?25l[?12l[?25h[32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$2[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h s[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[34d[K[?12l[?25h[2;17H(B[0;1m[34msort[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h t[?25l[?12l[?25ha[?25l[?12l[?25hi[?25l[?12l[?25h(B[0;1m[34mtail[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h 2[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h h[?25l[?12l[?25he[?25l[?12l[?25ha[?25l[?12l[?25h(B[0;1m[34mhead[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h 1[?25l[35;15H       (B[0;7mM-D(B[m DOS Format       (B[0;7mM-A(B[m Append           (B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel            (B[0;7mM-M(B[m Mac Format       (B[0;7mM-P(B[m Prepend          (B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: longest.sh                                                      [34;31H(B[m[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;51H(B[0;7m [83G(B[m[34;35H(B[0;7m[ Wrote 1 line ](B[m[35;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[?12l[?25h[2;48H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ bash longest.sh shell-lesson-data/exercise-data/proteins  pdb
+[?2004lwc: 'shell-lesson-data/exercise-data/proteins/*.pdb': No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ cd..[K[K  [K..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[00m$ cd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1[00m$ bash longest.s h shell-lesson-data/exercise-data/pri[Koteins pdb
+[?2004lbash: longest.sh: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1[00m$ cd shell-lesso n-data
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data[00m$ cd exercise [K-data
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ proteins
+[?2004lproteins: command not found
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd proteins
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ lo[K[Kbash longest.sh proteins pdb
+[?2004lwc: 'proteins/*.pdb': No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ cd ..
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ bash longest.sh
+[?2004lbash: longest.sh: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ basg[Kh longest.sh proteins pdb
+[?2004lbash: longest.sh: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ nano longest.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;37H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                         longest.sh                                   [1;83H(B[m[35d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[35;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;51H(B[0;7m*[83G(B[m[?12l[?25h[2dw[?25l[?12l[?25hc[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -l[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$1[39m(B[m[?25l[?12l[?25h/[?25l[?12l[?25h.[?25l[?12l[?25h[32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$2[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h t[?25l[?12l[?25ha[?25l[?12l[?25hi[?25l[?12l[?25h(B[0;1m[34mtail[39m(B[m[?25l[34d[K[?12l[?25h[2;20H[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h 2[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m|[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h h[?25l[?12l[?25he[?25l[?12l[?25ha[?25l[?12l[?25h(B[0;1m[34mhead[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -n[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h 1[?25l[35;15H       (B[0;7mM-D(B[m DOS Format       (B[0;7mM-A(B[m Append           (B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel            (B[0;7mM-M(B[m Mac Format       (B[0;7mM-P(B[m Prepend          (B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: longest.sh                                                      [34;31H(B[m[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;51H(B[0;7m [83G(B[m[34;35H(B[0;7m[ Wrote 1 line ](B[m[35;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[?12l[?25h[2;37H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ lo[K[Kbash longest.sh proteins pdb
+[?2004lwc: proteins/.pdb: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ nano longest.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;36H(B[0;7m[ Reading... ](B[m[34;35H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 6.2                         longest.sh                                   [1;83H(B[m[35d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[35;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2dwc(B[0;1m[35m -l[39m(B[m (B[0;1m[31m$1[39m(B[m/.(B[0;1m[31m$2[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 2 [32m|[39m(B[m (B[0;1m[34mhead[35m -n[39m(B[m 1[?12l[?25h[?25l[?12l[?25hw[?25l[?12l[?25hc[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h/[?25l[?12l[?25h.[?25l[1;51H(B[0;7m*[83G(B[m[?12l[?25h[2;10H[1P[?25l[?12l[?25h*(B[0;1m[31m$2[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 2 [32m|[39m(B[m (B[0;1m[34mhead[35m -n[39m(B[m 1[2;11H[?25l[?12l[?25h.(B[0;1m[31m$2[39m(B[m [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 2 [32m|[39m(B[m (B[0;1m[34mhead[35m -n[39m(B[m 1[2;12H[?25l[35;15H       (B[0;7mM-D(B[m DOS Format       (B[0;7mM-A(B[m Append           (B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel            (B[0;7mM-M(B[m Mac Format       (B[0;7mM-P(B[m Prepend          (B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: longest.sh                                                      [34;31H(B[m[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;51H(B[0;7m [83G(B[m[34;35H(B[0;7m[ Wrote 1 line ](B[m[35;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[?12l[?25h[2;12H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ bash lo[K[Kproteins pdb[C[1@ [1@l[1@o[1@n[1@g[1@e[1@s[1@t[1@.[1@s[1@h
+[?2004l   15 proteins/propane.pdb
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data[00m$ cd proteins
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ ba[K[Knano script1.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;37H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                         script1.sh                                   [1;83H(B[m[35d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[35;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;51H(B[0;7m*[83G(B[m[?12l[?25h[2de[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h *[?25l[?12l[?25h.[?25l[?12l[?25h*[?25l[35;15H       (B[0;7mM-D(B[m DOS Format       (B[0;7mM-A(B[m Append           (B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel            (B[0;7mM-M(B[m Mac Format       (B[0;7mM-P(B[m Prepend          (B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: script1.sh                                                      [34;31H(B[m[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;51H(B[0;7m [83G(B[m[34;35H(B[0;7m[ Wrote 1 line ](B[m[35;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[?12l[?25h[2;9H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ bash p[Kscript1.sh *.pdb
+[?2004lalkanes.pdb all.pdb cubane.pdb ethane.pdb lenghts.txt lengths.txt longest.sh methane.pdb middle.sh octane.pdb pentane.pdb propane.pdb script.sh script1.sh sorted-lenghts.txt sorted.sh testfile01.txt testfile02.txt
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ nano s[Kscript2.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;37H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                         script2.sh                                   [1;83H(B[m[35d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[35;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;51H(B[0;7m*[83G(B[m[?12l[?25h[2df[?25l[?12l[?25ho[?25l[?12l[?25h[32mfor[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h f[?25l[?12l[?25h[32mfi[39m(B[m[?25l[?12l[?25hfil[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h i[?25l[?12l[?25h[32min[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$1[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[34d[K[?12l[?25h[2;19H [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$2[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$3[39m(B[m[?25l[3d[?12l[?25h[?25l[?12l[?25hd[?25l[?12l[?25h[32mdo[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[4d[?12l[?25h[?25l[3;4H[?12l[?25h[?25l[?12l[?25h [?25l[4d[?12l[?25h[?25l[?12l[?25h[8G[42m[1K [49m(B[m[?25l[?12l[?25h[1K c[?25l[?12l[?25ha[?25l[?12l[?25h(B[0;1m[34mcat[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$f[39m(B[m[?25l[?12l[?25h(B[0;1m[31mi[39m(B[m[?25l[?12l[?25h(B[0;1m[31ml[39m(B[m[?25l[?12l[?25h(B[0;1m[31me[39m(B[m[?25l[?12l[?25h(B[0;1m[31mn[39m(B[m[?25l[?12l[?25h(B[0;1m[31ma[39m(B[m[?25l[?12l[?25h(B[0;1m[31mm[39m(B[m[?25l[?12l[?25h(B[0;1m[31me[39m(B[m[?25l[5d[?12l[?25h[?25l[?12l[?25hd[?25l[?12l[?25h[32mdo[39m(B[m[?25l[?12l[?25hdon[?25l[?12l[?25h[32mdone[39m(B[m[?25l[35;15H       (B[0;7mM-D(B[m DOS Format       (B[0;7mM-A(B[m Append           (B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel            (B[0;7mM-M(B[m Mac Format       (B[0;7mM-P(B[m Prepend          (B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: script2.sh                                                      [34;31H(B[m[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;51H(B[0;7m [83G(B[m[34;34H(B[0;7m[ Wrote 4 lines ](B[m[35;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[?12l[?25h[5;5H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ script2.[K[K[K[K[K[K[K[Kbasg[Kh script2.sh *.pdb
+[?2004lCOMPND      PROPANE
+AUTHOR      DAVE WOODCOCK  95  12 18
+ATOM      1  C           1       1.241   0.444   0.349  1.00  0.00
+ATOM      2  C           1      -0.011  -0.441   0.333  1.00  0.00
+ATOM      3  C           1      -1.176   0.296  -0.332  1.00  0.00
+ATOM      4  H           1       1.516   0.699  -0.675  1.00  0.00
+ATOM      5  H           1       2.058  -0.099   0.827  1.00  0.00
+ATOM      6  H           1       1.035   1.354   0.913  1.00  0.00
+ATOM      7  H           1      -0.283  -0.691   1.359  1.00  0.00
+ATOM      8  H           1       0.204  -1.354  -0.225  1.00  0.00
+ATOM      9  H           1      -0.914   0.551  -1.359  1.00  0.00
+ATOM     10  H           1      -1.396   1.211   0.219  1.00  0.00
+ATOM     11  H           1      -2.058  -0.345  -0.332  1.00  0.00
+TER      12              1
+END
+COMPND      PROPANE
+AUTHOR      DAVE WOODCOCK  95  12 18
+ATOM      1  C           1       1.241   0.444   0.349  1.00  0.00
+ATOM      2  C           1      -0.011  -0.441   0.333  1.00  0.00
+ATOM      3  C           1      -1.176   0.296  -0.332  1.00  0.00
+ATOM      4  H           1       1.516   0.699  -0.675  1.00  0.00
+ATOM      5  H           1       2.058  -0.099   0.827  1.00  0.00
+ATOM      6  H           1       1.035   1.354   0.913  1.00  0.00
+ATOM      7  H           1      -0.283  -0.691   1.359  1.00  0.00
+ATOM      8  H           1       0.204  -1.354  -0.225  1.00  0.00
+ATOM      9  H           1      -0.914   0.551  -1.359  1.00  0.00
+ATOM     10  H           1      -1.396   1.211   0.219  1.00  0.00
+ATOM     11  H           1      -2.058  -0.345  -0.332  1.00  0.00
+TER      12              1
+END
+COMPND      CUBANE
+AUTHOR      DAVE WOODCOCK  95 12 06
+ATOM      1  C           1       0.789  -0.852   0.504  1.00  0.00
+ATOM      2  C           1      -0.161  -1.104  -0.624  1.00  0.00
+ATOM      3  C           1      -1.262  -0.440   0.160  1.00  0.00
+ATOM      4  C           1      -0.289  -0.202   1.284  1.00  0.00
+ATOM      5  C           1       1.203   0.513  -0.094  1.00  0.00
+ATOM      6  C           1       0.099   1.184   0.694  1.00  0.00
+ATOM      7  C           1      -0.885   0.959  -0.460  1.00  0.00
+ATOM      8  C           1       0.236   0.283  -1.269  1.00  0.00
+ATOM      9  H           1       1.410  -1.631   0.942  1.00  0.00
+ATOM     10  H           1      -0.262  -2.112  -1.024  1.00  0.00
+ATOM     11  H           1      -2.224  -0.925   0.328  1.00  0.00
+ATOM     12  H           1      -0.468  -0.501   2.315  1.00  0.00
+ATOM     13  H           1       2.224   0.892  -0.134  1.00  0.00
+ATOM     14  H           1       0.240   2.112   1.251  1.00  0.00
+ATOM     15  H           1      -1.565   1.730  -0.831  1.00  0.00
+ATOM     16  H           1       0.472   0.494  -2.315  1.00  0.00
+TER      17              1
+END
+COMPND      ETHANE
+AUTHOR      DAVE WOODCOCK  95 12 18
+ATOM      1  C           1      -0.752   0.001  -0.141  1.00  0.00
+ATOM      2  C           1       0.752  -0.001   0.141  1.00  0.00
+ATOM      3  H           1      -1.158   0.991   0.070  1.00  0.00
+ATOM      4  H           1      -1.240  -0.737   0.496  1.00  0.00
+ATOM      5  H           1      -0.924  -0.249  -1.188  1.00  0.00
+ATOM      6  H           1       1.158  -0.991  -0.070  1.00  0.00
+ATOM      7  H           1       0.924   0.249   1.188  1.00  0.00
+ATOM      8  H           1       1.240   0.737  -0.496  1.00  0.00
+TER       9              1
+END
+COMPND      METHANE
+AUTHOR      DAVE WOODCOCK  95 12 18
+ATOM      1  C           1       0.257  -0.363   0.000  1.00  0.00
+ATOM      2  H           1       0.257   0.727   0.000  1.00  0.00
+ATOM      3  H           1       0.771  -0.727   0.890  1.00  0.00
+ATOM      4  H           1       0.771  -0.727  -0.890  1.00  0.00
+ATOM      5  H           1      -0.771  -0.727   0.000  1.00  0.00
+TER       6              1
+END
+COMPND      OCTANE
+AUTHOR      DAVE WOODCOCK  96 01 05
+ATOM      1  C           1      -4.397   0.370  -0.255  1.00  0.00
+ATOM      2  C           1      -3.113  -0.447  -0.421  1.00  0.00
+ATOM      3  C           1      -1.896   0.386  -0.007  1.00  0.00
+ATOM      4  C           1      -0.611  -0.426  -0.198  1.00  0.00
+ATOM      5  C           1       0.608   0.405   0.216  1.00  0.00
+ATOM      6  C           1       1.892  -0.400   0.001  1.00  0.00
+ATOM      7  C           1       3.113   0.429   0.414  1.00  0.00
+ATOM      8  C           1       4.397  -0.374   0.199  1.00  0.00
+ATOM      9  H           1      -4.502   0.681   0.785  1.00  0.00
+ATOM     10  H           1      -5.254  -0.243  -0.537  1.00  0.00
+ATOM     11  H           1      -4.357   1.252  -0.895  1.00  0.00
+ATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
+ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
+ATOM     14  H           1      -1.992   0.668   1.044  1.00  0.00
+ATOM     15  H           1      -1.849   1.286  -0.621  1.00  0.00
+ATOM     16  H           1      -0.515  -0.707  -1.248  1.00  0.00
+ATOM     17  H           1      -0.659  -1.326   0.417  1.00  0.00
+ATOM     18  H           1       0.520   0.671   1.270  1.00  0.00
+ATOM     19  H           1       0.645   1.314  -0.386  1.00  0.00
+ATOM     20  H           1       1.979  -0.666  -1.054  1.00  0.00
+ATOM     21  H           1       1.855  -1.309   0.604  1.00  0.00
+ATOM     22  H           1       3.030   0.696   1.467  1.00  0.00
+ATOM     23  H           1       3.155   1.337  -0.188  1.00  0.00
+ATOM     24  H           1       4.493  -0.641  -0.854  1.00  0.00
+ATOM     25  H           1       4.368  -1.282   0.801  1.00  0.00
+ATOM     26  H           1       5.254   0.230   0.498  1.00  0.00
+TER      27              1
+END
+COMPND      PENTANE
+AUTHOR      DAVE WOODCOCK  95 12 18
+ATOM      1  C           1       2.484  -0.389   0.322  1.00  0.00
+ATOM      2  C           1       1.261   0.350  -0.243  1.00  0.00
+ATOM      3  C           1      -0.027  -0.348   0.199  1.00  0.00
+ATOM      4  C           1      -1.249   0.421  -0.326  1.00  0.00
+ATOM      5  C           1      -2.536  -0.311   0.047  1.00  0.00
+ATOM      6  H           1       2.471  -1.420  -0.033  1.00  0.00
+ATOM      7  H           1       2.443  -0.371   1.412  1.00  0.00
+ATOM      8  H           1       3.393   0.112  -0.016  1.00  0.00
+ATOM      9  H           1       1.324   0.350  -1.332  1.00  0.00
+ATOM     10  H           1       1.271   1.378   0.122  1.00  0.00
+ATOM     11  H           1      -0.074  -0.384   1.288  1.00  0.00
+ATOM     12  H           1      -0.048  -1.362  -0.205  1.00  0.00
+ATOM     13  H           1      -1.183   0.500  -1.412  1.00  0.00
+ATOM     14  H           1      -1.259   1.420   0.112  1.00  0.00
+ATOM     15  H           1      -2.608  -0.407   1.130  1.00  0.00
+ATOM     16  H           1      -2.540  -1.303  -0.404  1.00  0.00
+ATOM     17  H           1      -3.393   0.254  -0.321  1.00  0.00
+TER      18              1
+END
+COMPND      PROPANE
+AUTHOR      DAVE WOODCOCK  95  12 18
+ATOM      1  C           1       1.241   0.444   0.349  1.00  0.00
+ATOM      2  C           1      -0.011  -0.441   0.333  1.00  0.00
+ATOM      3  C           1      -1.176   0.296  -0.332  1.00  0.00
+ATOM      4  H           1       1.516   0.699  -0.675  1.00  0.00
+ATOM      5  H           1       2.058  -0.099   0.827  1.00  0.00
+ATOM      6  H           1       1.035   1.354   0.913  1.00  0.00
+ATOM      7  H           1      -0.283  -0.691   1.359  1.00  0.00
+ATOM      8  H           1       0.204  -1.354  -0.225  1.00  0.00
+ATOM      9  H           1      -0.914   0.551  -1.359  1.00  0.00
+ATOM     10  H           1      -1.396   1.211   0.219  1.00  0.00
+ATOM     11  H           1      -2.058  -0.345  -0.332  1.00  0.00
+TER      12              1
+END
+cat alkanes.pdb
+cat all.pdb
+cat cubane.pdb
+cat ethane.pdb
+cat methane.pdb
+cat octane.pdb
+cat pentane.pdb
+cat propane.pdb
+cat alkanes.pdb
+cat all.pdb
+cat cubane.pdb
+cat ethane.pdb
+cat methane.pdb
+cat octane.pdb
+cat pentane.pdb
+cat propane.pdb
+COMPND      CUBANE
+AUTHOR      DAVE WOODCOCK  95 12 06
+ATOM      1  C           1       0.789  -0.852   0.504  1.00  0.00
+ATOM      2  C           1      -0.161  -1.104  -0.624  1.00  0.00
+ATOM      3  C           1      -1.262  -0.440   0.160  1.00  0.00
+ATOM      4  C           1      -0.289  -0.202   1.284  1.00  0.00
+ATOM      5  C           1       1.203   0.513  -0.094  1.00  0.00
+ATOM      6  C           1       0.099   1.184   0.694  1.00  0.00
+ATOM      7  C           1      -0.885   0.959  -0.460  1.00  0.00
+ATOM      8  C           1       0.236   0.283  -1.269  1.00  0.00
+ATOM      9  H           1       1.410  -1.631   0.942  1.00  0.00
+ATOM     10  H           1      -0.262  -2.112  -1.024  1.00  0.00
+ATOM     11  H           1      -2.224  -0.925   0.328  1.00  0.00
+ATOM     12  H           1      -0.468  -0.501   2.315  1.00  0.00
+ATOM     13  H           1       2.224   0.892  -0.134  1.00  0.00
+ATOM     14  H           1       0.240   2.112   1.251  1.00  0.00
+ATOM     15  H           1      -1.565   1.730  -0.831  1.00  0.00
+ATOM     16  H           1       0.472   0.494  -2.315  1.00  0.00
+TER      17              1
+END
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ nano script.[K[Kt3.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;37H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                         script3.sh                                   [1;83H(B[m[35d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[35;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;51H(B[0;7m*[83G(B[m[?12l[?25h[2de[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$@[39m(B[m[?25l[?12l[?25h.[?25l[?12l[?25hp[?25l[?12l[?25hd[?25l[?12l[?25hb[?25l[35;15H       (B[0;7mM-D(B[m DOS Format       (B[0;7mM-A(B[m Append           (B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel            (B[0;7mM-M(B[m Mac Format       (B[0;7mM-P(B[m Prepend          (B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: script3.sh                                                      [34;31H(B[m[?12l[?25h[?25l    [1K (B[0;7m[ Writing... ](B[m[K[1;51H(B[0;7m [83G(B[m[34;35H(B[0;7m[ Wrote 1 line ](B[m[35;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[?12l[?25h[2;12H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ basg[Kh script3.sh *.pdb
+[?2004lalkanes.pdb all.pdb cubane.pdb ethane.pdb methane.pdb octane.pdb pentane.pdb propane.pdb.pdb
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/exercise-data/proteins[00m$ cd ../../north-pacific-gyre
+[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ nano do-errors.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;37H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                        do-errors.sh                                  [1;83H(B[m[35d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[35;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;52H(B[0;7m*[83G(B[m[?12l[?25h[2d[36m#[39m(B[m[?25l[?12l[?25h[36mc[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36ml[39m(B[m[?25l[?12l[?25h[36mc[39m(B[m[?25l[?12l[?25h[36mu[39m(B[m[?25l[?12l[?25h[36ml[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36mt[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m s[39m(B[m[?25l[?12l[?25h[36mt[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36mt[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m f[39m(B[m[?25l[?12l[?25h[36mo[39m(B[m[?25l[34d[K[?12l[?25h[2;20H[36mr[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m d[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36mt[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[36m f[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36ml[39m(B[m[?25l[?12l[?25h[36me[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[36m #calculate stats for data files [39m(B[m[?25l[?12l[?25h[1P[?25l[?12l[?25h[C[?25l[?12l[?25h[36m calculate stats for data files# [39m(B[m[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[3d[?12l[?25h[?25l[?12l[?25hf[?25l[?12l[?25ho[?25l[?12l[?25h[32mfor[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h d[?25l[?12l[?25ha[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h i[?25l[?12l[?25h[32min[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h[32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$@[39m(B[m[?25l[?12l[?25h(B[0;1m[33m"$@"[39m(B[m[?25l[4d[?12l[?25h[?25l[?12l[?25hf[?25l[?12l[?25h[K[?25l[?12l[?25hd[?25l[?12l[?25h[32mdo[39m(B[m[?25l[5d[?12l[?25h[?25l[?12l[?25h[8G[42m[1K [49m(B[m[?25l[?12l[?25h[1K e[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$d[39m(B[m[?25l[?12l[?25h(B[0;1m[31ma[39m(B[m[?25l[?12l[?25h(B[0;1m[31mt[39m(B[m[?25l[?12l[?25h(B[0;1m[31ma[39m(B[m[?25l[?12l[?25h(B[0;1m[31mf[39m(B[m[?25l[?12l[?25h(B[0;1m[31mi[39m(B[m[?25l[?12l[?25h(B[0;1m[31ml[39m(B[m[?25l[?12l[?25h(B[0;1m[31me[39m(B[m[?25l[6d[?12l[?25h[?25l[?12l[?25h[8G[42m[1K [49m(B[m[?25l[?12l[?25h[1K b[?25l[?12l[?25ha[?25l[?12l[?25hs[?25l[?12l[?25hh[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h g[?25l[?12l[?25ho[?25l[?12l[?25ho[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25ht[?25l[?12l[?25hs[?25l[?12l[?25h.[?25l[?12l[?25hs[?25l[?12l[?25hh[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h [32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$d[39m(B[m[?25l[?12l[?25h(B[0;1m[31ma[39m(B[m[?25l[?12l[?25h(B[0;1m[31mt[39m(B[m[?25l[?12l[?25h(B[0;1m[31ma[39m(B[m[?25l[?12l[?25h(B[0;1m[31mf[39m(B[m[?25l[?12l[?25h(B[0;1m[31mi[39m(B[m[?25l[?12l[?25h(B[0;1m[31ml[39m(B[m[?25l[?12l[?25h(B[0;1m[31me[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h s[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25ht[?25l[?12l[?25hs[?25l[?12l[?25h-[?25l[?12l[?25h[32m$[39m(B[m[?25l[?12l[?25h(B[0;1m[31m$d[39m(B[m[?25l[?12l[?25h(B[0;1m[31ma[39m(B[m[?25l[?12l[?25h(B[0;1m[31mt[39m(B[m[?25l[?12l[?25h(B[0;1m[31ma[39m(B[m[?25l[?12l[?25h(B[0;1m[31mf[39m(B[m[?25l[?12l[?25h(B[0;1m[31mi[39m(B[m[?25l[?12l[?25h(B[0;1m[31ml[39m(B[m[?25l[?12l[?25h(B[0;1m[31me[39m(B[m[?25l[7d[?12l[?25h[?25l[?12l[?25hd[?25l[?12l[?25h[32mdo[39m(B[m[?25l[?12l[?25hdon[?25l[?12l[?25h[32mdone[39m(B[m[?25l[35;15H       (B[0;7mM-D(B[m DOS Format       (B[0;7mM-A(B[m Append           (B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel            (B[0;7mM-M(B[m Mac Format       (B[0;7mM-P(B[m Prepend          (B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: do-errors.sh                                                    [34;33H(B[m[?12l[?25h[?25l  [1K (B[0;7m[ Writing... ](B[m[K[1;52H(B[0;7m [83G(B[m[34;34H(B[0;7m[ Wrote 6 lines ](B[m[35;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[36;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[?12l[?25h[7;5H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ bash do-errors.sh NENE*A.txt NENE*B.txt
+[?2004lNENE01729A.txt
+NENE01736A.txt
+NENE01751A.txt
+NENE01812A.txt
+NENE01843A.txt
+NENE01978A.txt
+NENE02040A.txt
+NENE02043A.txt
+NENE01729B.txt
+NENE01751B.txt
+NENE01843B.txt
+NENE01978B.txt
+NENE02018B.txt
+NENE02040B.txt
+NENE02043B.txt
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ cd scripts
+[?2004lbash: cd: scripts: No such file or directory
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ bash -x do-errors.sh NENE*A.txt NENE*B.txt
+[?2004l+ for datafile in "$@"
++ echo NENE01729A.txt
+NENE01729A.txt
++ bash goostats.sh NENE01729A.txt stats-NENE01729A.txt
++ for datafile in "$@"
++ echo NENE01736A.txt
+NENE01736A.txt
++ bash goostats.sh NENE01736A.txt stats-NENE01736A.txt
++ for datafile in "$@"
++ echo NENE01751A.txt
+NENE01751A.txt
++ bash goostats.sh NENE01751A.txt stats-NENE01751A.txt
++ for datafile in "$@"
++ echo NENE01812A.txt
+NENE01812A.txt
++ bash goostats.sh NENE01812A.txt stats-NENE01812A.txt
++ for datafile in "$@"
++ echo NENE01843A.txt
+NENE01843A.txt
++ bash goostats.sh NENE01843A.txt stats-NENE01843A.txt
++ for datafile in "$@"
++ echo NENE01978A.txt
+NENE01978A.txt
++ bash goostats.sh NENE01978A.txt stats-NENE01978A.txt
++ for datafile in "$@"
++ echo NENE02040A.txt
+NENE02040A.txt
++ bash goostats.sh NENE02040A.txt stats-NENE02040A.txt
++ for datafile in "$@"
++ echo NENE02043A.txt
+NENE02043A.txt
++ bash goostats.sh NENE02043A.txt stats-NENE02043A.txt
++ for datafile in "$@"
++ echo NENE01729B.txt
+NENE01729B.txt
++ bash goostats.sh NENE01729B.txt stats-NENE01729B.txt
++ for datafile in "$@"
++ echo NENE01751B.txt
+NENE01751B.txt
++ bash goostats.sh NENE01751B.txt stats-NENE01751B.txt
++ for datafile in "$@"
++ echo NENE01843B.txt
+NENE01843B.txt
++ bash goostats.sh NENE01843B.txt stats-NENE01843B.txt
++ for datafile in "$@"
++ echo NENE01978B.txt
+NENE01978B.txt
++ bash goostats.sh NENE01978B.txt stats-NENE01978B.txt
++ for datafile in "$@"
++ echo NENE02018B.txt
+NENE02018B.txt
++ bash goostats.sh NENE02018B.txt stats-NENE02018B.txt
++ for datafile in "$@"
++ echo NENE02040B.txt
+NENE02040B.txt
++ bash goostats.sh NENE02040B.txt stats-NENE02040B.txt
++ for datafile in "$@"
++ echo NENE02043B.txt
+NENE02043B.txt
++ bash goostats.sh NENE02043B.txt stats-NENE02043B.txt
+[?2004h]0;ajit05tiger@TIGER02636: /mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[01;32majit05tiger@TIGER02636[00m:[01;34m/mnt/c/users/ajit.mishra/desktop/mle/module_1/shell-lesson-data/north-pacific-gyre[00m$ exit
+[?2004lexit
+
+Script done on 2022-12-30 22:02:00+05:30 [COMMAND_EXIT_CODE="0"]
